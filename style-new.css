@@ -195,11 +195,12 @@ body a {
 .container {
   width: 100% !important;
   margin: 0px auto;
-  padding: 0;
+  /* padding: 0; */
   max-width: 1872px;
 }
 
-.weakbtn {
+.weakbtn,
+.weakblack {
   border: 1px solid var(--stroke-inverse-weak);
   background-color: var(--stroke-inverse-weak);
   color: var(--fill-inverse-strong);
@@ -217,7 +218,8 @@ body a {
   -o-transition: all 0.5s ease-in-out;
 }
 
-.weakbtn svg {
+.weakbtn svg,
+.weakblack svg {
   margin-left: 8px;
 }
 
@@ -228,12 +230,21 @@ body a {
   color: var(--text-strong);
 }
 
-.weakbtn:hover svg path {
+.weakblack:hover {
+  border: 1px solid var(--text-strong);
+  background-color: var(--stroke-inverse-weak);
+  text-decoration: none;
+  color: var(--text-strong);
+}
+
+.weakbtn:hover svg path,
+.weakblack:hover svg path {
   color: var(--text-strong);
   fill: var(--text-strong);
 }
 
-.weakbtn:hover svg {
+.weakbtn:hover svg,
+.weakblack:hover svg {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -247,8 +258,12 @@ body a {
   -o-transition: all 0.5s ease-in-out;
 }
 
+.weakblack {
+  background-color: var(--text-strong);
+}
+
 .mx24 {
-  margin: 0 24px;
+  margin-inline: 24px;
 }
 
 .mb72 {
@@ -257,6 +272,14 @@ body a {
 
 .mt72 {
   margin-top: 72px;
+}
+
+.mb96 {
+  margin-bottom: 96px;
+}
+
+.mb85 {
+  margin-bottom: 85px;
 }
 
 h1,
@@ -301,6 +324,10 @@ p {
 
 .Home-banner {
   position: relative;
+}
+
+.Home-banner .container {
+  padding: 0;
 }
 
 .home-inner {
@@ -615,6 +642,10 @@ p {
   margin-inline: auto;
 }
 
+.four-boxes .container {
+  padding: 0;
+}
+
 .four-boxes .row {
   display: flex;
   flex-wrap: wrap;
@@ -787,7 +818,6 @@ p {
   background-color: rgba(230, 230, 230, 1);
   overflow: hidden;
   padding: 72px 24px;
-  margin-inline: auto;
   max-width: 1872px;
 }
 
@@ -847,6 +877,115 @@ p {
 
 .grey-bg .grey-right {
   padding-left: 73px;
+}
+
+/* stay-four-section-start */
+.stay-four-coloum h2 {
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.stay-four-coloum .row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.stay-four-coloum .row .col-12 {
+  display: contents;
+}
+
+.stay-four-coloum img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  max-height: 295px;
+}
+
+.stay-four-coloum .stay-four-inner-txt {
+  margin-top: 16px;
+}
+
+.stay-four-coloum .stay-four-inner-txt a {
+  text-decoration: none;
+}
+
+.stay-four-coloum .stay-four-inner-txt ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stay-four-coloum .stay-four-inner-txt ul li {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stay-four-coloum .stay-four-inner-txt ul li:not(:last-child) {
+  padding-right: 5px;
+}
+
+.stay-four-coloum .stay-four-inner-txt ul li a {
+  text-decoration: none;
+  color: var(--text-weak);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.stay-four-coloum .price-cat {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.stay-four-coloum .price-cat span {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--text-weak);
+  margin-right: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.stay-four-coloum .price-cat span svg {
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+.stay-four-coloum .stay-four-col {
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 48px;
+}
+
+.stay-four-coloum .price-cat .overline {
+  text-decoration: line-through;
+}
+
+.stay-four-coloum .weakblack {
+  margin: 0px auto;
+}
+/* stay-four-section-end */
+
+.rating-section .rating-section-col {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.rating-section .rating-section-col img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  max-height: 480px;
+}
+
+.rating-section .row {
+  margin: 48px 0 0;
 }
 /*--- media-query ---*/
 @media only screen and (min-width: 1920px) {
@@ -1044,6 +1183,19 @@ p {
   .grey-bg .grey-bg-right {
     padding: 20px;
   }
+  .stay-four-coloum .row {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .stay-four-coloum .stay-four-col {
+    padding-bottom: 32px;
+    width: 50%;
+    flex: 0 0 50%;
+  }
+  .stay-four-coloum h2 {
+    padding-bottom: 20px;
+    padding-inline: 20px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1130,5 +1282,12 @@ p {
   .four-boxes.vertical-box .four-boxes-right .four-boxes-right-box {
     width: 75%;
     flex: 0 0 75%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .stay-four-coloum .stay-four-col {
+    width: 100%;
+    flex: 0 0 100%;
   }
 }
