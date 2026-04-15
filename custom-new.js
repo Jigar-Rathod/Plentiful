@@ -15,7 +15,7 @@ updateSlider();
 setInterval(updateSlider, 2000);
 
 // four-boxes-img
-document.querySelectorAll(".four-boxes").forEach((section) => {
+document.querySelectorAll(".four-boxes-hpn").forEach((section) => {
   const boxImages = section.querySelectorAll(
     ".four-boxes-left .box-img, .four-boxes-left .vertical-img",
   );
