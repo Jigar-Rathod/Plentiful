@@ -31,3 +31,31 @@ document.querySelectorAll(".four-boxes-hpn").forEach((section) => {
     });
   });
 });
+
+//video-section start
+const video = document.querySelector(".lazy-video");
+
+const observer = new IntersectionObserver(
+  (entries, obs) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const source = video.querySelector("source");
+
+        // lazy load
+        if (!source.src) {
+          source.src = source.dataset.src;
+          video.load();
+        }
+
+        video.play();
+
+        obs.unobserve(video); // run only once
+      }
+    });
+  },
+  {
+    threshold: 0.5,
+  },
+);
+
+observer.observe(video);
