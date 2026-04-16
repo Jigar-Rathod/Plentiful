@@ -61,7 +61,6 @@
   color: var(--text-strong);
   letter-spacing: 2%;
   text-decoration: none;
-  text-decoration: none;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -168,6 +167,10 @@
 
 .header .tabing-section-hpn .tab-content {
   margin-block: 0 32px;
+}
+
+.header .menu-section-header .header-menu-list ul li .tab-inner a {
+  text-decoration: underline;
 }
 
 .header .tabing-section-hpn .tabing-btn ul li a {
