@@ -481,7 +481,7 @@ p {
   bottom: 1px;
   position: absolute;
   content: "";
-  z-index: 1;
+  z-index: 0;
   height: 1px;
   width: 87%;
   left: 12px;
@@ -999,6 +999,12 @@ p {
 }
 .stay-four-coloum-hpn .price-cat span.woocommerce-Price-currencySymbol {
   margin-right: 0;
+}
+
+.stay-four-coloum-hpn .stay-four-inner .price-cat img {
+  width: auto;
+  height: auto;
+  aspect-ratio: initial !important;
 }
 /* stay-four-section-end */
 .rating-section-hpn .rating-section-col {
