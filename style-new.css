@@ -581,7 +581,7 @@ p {
 }
 
 .tabing-section-hpn .tabing-btn {
-  max-width: 665px;
+  max-width: 900px;
   margin: 0px auto;
   text-align: center;
 }
@@ -848,7 +848,7 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url("../images/beln-bg.svg") no-repeat center bottom/contain;
+  background: url("./img/beln-bg.svg") no-repeat center bottom/contain;
   left: 0;
 }
 
@@ -1172,9 +1172,9 @@ p {
 
 /*--- media-query ---*/
 @media only screen and (min-width: 1920px) {
-  .container {
+  /* .container {
     padding: 0;
-  }
+  } */
   .Home-banner-hpn,
   .four-boxes-hpn .row,
   .stay-four-coloum-hpn .row,
