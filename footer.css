@@ -13,11 +13,26 @@
   color: var(--text-inverse-weak);
   padding-bottom: 32px;
 }
-.best-section-hpn .navbar-form {
+/* .best-section-hpn .navbar-form {
   max-width: 560px;
   text-align: center;
   margin: 0px auto;
+} */
+.best-section-hpn .mc4wp-form-fields {
+  display: inline-flex;
+  border: 1px solid var(--stroke-inverse-weak);
 }
+
+.best-section-hpn .mc4wp-form-fields .button {
+  padding: 12px 20px;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.best-section-hpn .mc4wp-form-fields input[type="email"] {
+  border: none;
+}
+
 footer {
   background-color: rgba(248, 246, 242, 1);
   padding: 72px 24px 33px;

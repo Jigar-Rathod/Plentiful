@@ -311,6 +311,11 @@
     left: 0;
     height: 100vh;
     flex: 0 0 100%;
+    overflow-y: auto;
+  }
+  body.menu-open {
+    width: 100%;
+    height: 100%;
     overflow-y: hidden;
   }
   .header .menu-section-header.active,
@@ -319,6 +324,8 @@
   }
   .header .menu-section-header .header-menu-list {
     padding-inline: 5px;
+    width: 100%;
+    height: 100%;
   }
   .mega-dropdown {
     margin-right: 0;
@@ -395,8 +402,8 @@
     ul
     li.dropdown.mega-dropdown.open
     .dropdown-menu {
-    height: 500px;
-    overflow: scroll;
+    height: 400px;
+    overflow-y: scroll;
     border-radius: 0;
   }
   .header .menu-section-header .header-menu-list ul li:not(:last-child) {
@@ -432,15 +439,9 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
-  .header .tabing-section-hpn .tab-content .row {
-    margin: 0 0 0 20px;
-  }
-}
-
 @media only screen and (max-width: 375px) {
   .header .tabing-section-hpn .tab-content .row {
-    margin: 0 0 0 120px;
+    margin: 0 0 0 60px;
   }
   .header .tabing-section-hpn .tab-content .row .tab-img {
     width: 55%;
@@ -450,6 +451,6 @@
 
 @media only screen and (max-width: 320px) {
   .header .tabing-section-hpn .tab-content .row {
-    margin: 0 0 0 180px;
+    margin: 0 0 0 110px;
   }
 }

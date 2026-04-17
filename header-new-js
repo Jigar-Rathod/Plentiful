@@ -44,6 +44,13 @@ document.addEventListener("DOMContentLoaded", function () {
       const icon = this.querySelector("i");
       icon.classList.toggle("fa-bars");
       icon.classList.toggle("fa-xmark");
+
+      // BODY CLASS
+      if (document.querySelector(".menu-section-header.active")) {
+        document.body.classList.add("menu-open");
+      } else {
+        document.body.classList.remove("menu-open");
+      }
     });
   });
 });
