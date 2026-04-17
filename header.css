@@ -406,6 +406,7 @@
     overflow-y: scroll;
     border-radius: 0;
   }
+
   .header .menu-section-header .header-menu-list ul li:not(:last-child) {
     padding-right: 0;
   }

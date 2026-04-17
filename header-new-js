@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const dropdowns = document.querySelectorAll(".mega-dropdown");
 
   dropdowns.forEach(function (dropdown) {
-    // DESKTOP → HOVER
     dropdown.addEventListener("mouseenter", function () {
       if (window.innerWidth > 991) {
         dropdown.classList.add("open");
