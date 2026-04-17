@@ -207,6 +207,27 @@ body a {
   max-width: 1872px;
 }
 
+::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: var(--text-strong);
+  opacity: 32%;
+}
+::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: var(--text-strong);
+  opacity: 32%;
+}
+:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: var(--text-strong);
+  opacity: 32%;
+}
+:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: var(--text-strong);
+  opacity: 32%;
+}
+
 .weakbtn,
 .weakblack {
   border: 1px solid var(--stroke-inverse-weak);
@@ -852,6 +873,7 @@ p {
   height: 100%;
   background: url("../img/beln-bg.svg") no-repeat center bottom/contain;
   left: 0;
+  bottom: -5px;
 }
 
 .grey-bg-hpn .row {
@@ -1061,15 +1083,9 @@ p {
   padding-block: 12px 8px;
   display: block;
 }
-
-.rating-section-hpn .rating-section-col:nth-child(1) {
-  padding-left: 0;
+.rating-section-hpn .col-12 {
+  padding-left: 4px;
 }
-
-.rating-section-hpn .rating-section-col:nth-child(3) {
-  padding-right: 0;
-}
-
 .rating-section-hpn .rating-section-col {
   width: 33.33%;
   flex: 0 0 33.33%;
@@ -1104,6 +1120,9 @@ p {
 .form-section-hpn .form-right .form-row select.wpcf7-form-control.wpcf7-select {
   width: 100%;
   flex: 0 0 100%;
+}
+
+.form-section-hpn .form-right .form-row .form-col-100 {
   margin-top: 24px;
 }
 
@@ -1240,6 +1259,34 @@ p {
   display: none;
 }
 
+.form-section-hpn .form-right .form-row label span {
+  color: red;
+}
+
+.form-section-hpn .form-right .wpcf7 input[type="submit"] {
+  border: 1px solid var(--stroke-inverse-weak);
+  color: var(--fill-inverse-strong);
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 16%;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  background-color: var(--text-strong);
+}
+
+.form-section-hpn .form-right .wpcf7 input[type="submit"]:hover {
+  border: 1px solid var(--text-strong);
+  background-color: var(--stroke-inverse-weak);
+  text-decoration: none;
+  color: var(--text-strong);
+}
 /*--- media-query ---*/
 @media only screen and (min-width: 1920px) {
   /* .container {
