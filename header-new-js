@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 
-    // MOBILE → CLICK
     const link = dropdown.querySelector(".dropdown-toggle");
     link.addEventListener("click", function (e) {
       if (window.innerWidth <= 991) {

@@ -188,6 +188,7 @@ body a {
   font-weight: 500;
   text-decoration: none;
 }
+
 :root {
   --text-strong: rgba(20, 25, 31, 1);
   --text-weak: rgba(20, 25, 31, 0.64);
