@@ -391,8 +391,8 @@ p {
 .siximages-section-hpn .image-innar {
   /* padding: 0 43px; */
   border-right: 1px solid rgba(20, 25, 31, 0.12);
-  /* width: 17%;
-  flex: 0 0 17%; */
+  width: 17%;
+  flex: 0 0 17%;
   text-align: center;
   opacity: 0;
   pointer-events: none;
@@ -1239,6 +1239,11 @@ p {
 .action-section-hpn .moblie-view {
   display: none;
 }
+
+/* searching-start */
+
+/* searching-end */
+
 /*--- media-query ---*/
 @media only screen and (min-width: 1920px) {
   /* .container {
