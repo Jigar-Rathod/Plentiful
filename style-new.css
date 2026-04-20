@@ -1364,7 +1364,7 @@ p {
   color: var(--text-strong);
 }
 
-.woocommerce-pagination span.page-numbers {
+.woocommerce-pagination a.page-numbers {
   line-height: 42px !important;
   min-width: 42px !important;
   margin: 0 10px 0 !important;
