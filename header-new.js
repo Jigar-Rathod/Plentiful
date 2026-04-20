@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector(".menu-section-header").classList.toggle("active");
       const icon = this.querySelector("i");
       icon.classList.toggle("fa-bars");
-      icon.classList.toggle("fa-xmark");
+      icon.classList.toggle("fa-times");
 
       // BODY CLASS
       if (document.querySelector(".menu-section-header.active")) {
