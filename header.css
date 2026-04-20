@@ -35,6 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  list-style: none;
 }
 
 .header .menu-section-header .header-menu-list ul {
@@ -318,6 +319,14 @@
   .header {
     padding-inline: 20px;
   }
+  .header .row {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    width: 100%;
+  }
   .header .logo-section,
   .header .search-section {
     width: 48%;
@@ -328,11 +337,11 @@
     position: absolute;
     background-color: white;
     top: 75px;
-    width: 100vw;
+    width: 100%;
     left: 0;
     height: 100vh;
     flex: 0 0 100%;
-    overflow-y: auto;
+    overflow: hidden;
   }
   body.menu-open {
     width: 100%;
@@ -380,9 +389,11 @@
     background: transparent;
     box-shadow: none;
     border: none;
+    left: 0;
   }
   .mega-dropdown.open .mega-menu {
     position: relative;
+    padding-left: 2px;
   }
   .header .tabing-section-hpn .tab-content img {
     object-fit: cover;
@@ -398,6 +409,7 @@
   }
   .header .droprow {
     flex-wrap: wrap;
+    padding-left: 15px;
   }
   .header .droprow .drop-menu {
     width: 100%;
@@ -426,6 +438,8 @@
     height: 400px;
     overflow-y: scroll;
     border-radius: 0;
+    border: none;
+    justify-content: flex-start;
   }
   .header .menu-section-header .header-menu-list ul li:not(:last-child) {
     padding-right: 0;
@@ -460,18 +474,18 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
-  .header .tabing-section-hpn .tab-content .row {
-    margin: 0 0 0 60px;
+@media only screen and (max-width: 480px) {
+  .mega-dropdown.open .mega-menu {
+    padding-left: 10px;
   }
-  .header .tabing-section-hpn .tab-content .row .tab-img {
-    width: 55%;
-    flex: 0 0 55%;
+  .header .tabing-section-hpn .tab-content .row {
+    padding-left: 15px;
   }
 }
 
-@media only screen and (max-width: 320px) {
-  .header .tabing-section-hpn .tab-content .row {
-    margin: 0 0 0 110px;
+@media only screen and (max-width: 375px) {
+  .header .tabing-section-hpn .tab-content .row .tab-img {
+    width: 55%;
+    flex: 0 0 55%;
   }
 }

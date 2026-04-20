@@ -95,6 +95,9 @@ footer .menu-section span {
   display: block;
   letter-spacing: 16%;
 }
+footer .menu-section ul {
+  list-style: none;
+}
 footer .menu-section ul li:not(:last-child) {
   padding-bottom: 12px;
   display: block;
@@ -167,6 +170,7 @@ footer .menu-two-colum .row {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  list-style: none;
 }
 footer .menu-two-colum .logo-list ul {
   display: flex;

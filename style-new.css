@@ -930,6 +930,40 @@ p {
 }
 
 /* stay-four-section-start */
+.stay-four-coloum-hpn {
+  position: relative;
+}
+
+.stay-four-coloum-hpn .active-filters-bar {
+  position: absolute;
+  top: 30px;
+  z-index: 9999;
+  margin-left: 90px;
+}
+
+.stay-four-coloum-hpn .active-filters-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.stay-four-coloum-hpn .active-filters-bar ul li {
+  border: 1px solid rgba(20, 25, 31, 0.16);
+  background-color: rgba(20, 25, 31, 0.06);
+}
+
+.stay-four-coloum-hpn .active-filters-bar ul li a {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 2%;
+  color: var(--text-strong);
+}
+
+.stay-four-coloum-hpn .active-filters-bar ul li:not(:last-child) {
+  margin-right: 10px;
+}
 .stay-four-coloum-hpn h2 {
   text-align: center;
   padding-bottom: 48px;
