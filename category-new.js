@@ -48,7 +48,6 @@
 //     });
 //   });
 // });
-
 document.addEventListener("DOMContentLoaded", function () {
   const itemsfaq = document.querySelectorAll(".faq-item");
 
