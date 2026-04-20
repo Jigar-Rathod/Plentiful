@@ -325,6 +325,7 @@
   width: 230px;
   padding: 10px 0;
   top: 30px;
+  left: -150px;
 }
 
 .header
@@ -337,6 +338,7 @@
   font-size: 14px;
   line-height: 1.5;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 @media only screen and (min-width: 1920px) {
@@ -439,7 +441,8 @@
   }
   .header .droprow {
     flex-wrap: wrap;
-    padding-left: 15px;
+    padding-left: 0;
+    margin: 0;
   }
   .header .droprow .drop-menu {
     width: 100%;
@@ -504,12 +507,15 @@
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .header .search-section .block-userlink.ocolus-dropdown ul.sub-menu {
+    left: -60px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .mega-dropdown.open .mega-menu {
     padding-left: 10px;
-  }
-  .header .tabing-section-hpn .tab-content .row {
-    padding-left: 15px;
   }
 }
 
