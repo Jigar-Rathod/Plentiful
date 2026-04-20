@@ -1288,6 +1288,23 @@ p {
   background-color: var(--text-strong);
 }
 
+.shop-before-control {
+  margin-bottom: 108px;
+  position: relative;
+  border: none;
+}
+
+.shop-before-control .product-filter {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.shop-before-control .woocommerce-ordering-wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 .form-section-hpn .form-right .wpcf7 input[type="submit"]:hover {
   border: 1px solid var(--text-strong);
   background-color: var(--stroke-inverse-weak);
