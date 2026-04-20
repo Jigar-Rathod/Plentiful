@@ -1319,6 +1319,7 @@ p {
 .shop-before-control {
   margin-bottom: 108px;
   border: none;
+  position: relative;
 }
 
 .shop-before-control .product-filter {
