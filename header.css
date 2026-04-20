@@ -26,8 +26,8 @@
 }
 
 .header .menu-section-header {
-  width: 88%;
-  flex: 0 0 88%;
+  width: 80%;
+  flex: 0 0 80%;
   padding-inline: 20px;
 }
 
@@ -116,13 +116,30 @@
   content: "\f106";
 }
 .header .search-section {
-  width: 5%;
-  flex: 0 0 5%;
+  width: 10%;
+  flex: 0 0 10%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
+.header .search-section .block-userlink .text {
+  display: none;
+}
+
+.header .search-section .block-search.style-02 {
+  position: static;
+  margin-right: 10px;
+}
+
+.header .search-section .block-search .icomoon-Magnifying-glass:before,
+.header .search-section .block-search .fa-user:before {
+  font-size: 20px;
+}
+
+.header .search-section .block-search.style-02 .search-form {
+  height: 100vh;
+}
 .mega-dropdown {
   position: static !important;
   margin-right: 20px;
@@ -148,6 +165,7 @@
   visibility: visible;
   transform: translateY(0);
   border-top: 1px solid var(--stroke-weak);
+  box-shadow: none;
 }
 
 .header .menu-section-header .header-menu-list ul li .dropdown-toggle {
@@ -167,6 +185,10 @@
 
 .header .tabing-section-hpn .tab-content {
   margin-block: 0 32px;
+}
+
+.header .tabing-section-hpn .tab-content .row {
+  align-items: flex-start;
 }
 
 .header .menu-section-header .header-menu-list ul li .tab-inner a {
@@ -306,7 +328,7 @@
     display: none;
     position: absolute;
     background-color: white;
-    top: 76px;
+    top: 75px;
     width: 100vw;
     left: 0;
     height: 100vh;

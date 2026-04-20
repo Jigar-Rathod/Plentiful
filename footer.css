@@ -19,8 +19,28 @@
   margin: 0px auto;
 } */
 .best-section-hpn .mc4wp-form-fields {
+  width: 560px;
   display: inline-flex;
   border: 1px solid var(--stroke-inverse-weak);
+  max-width: 560px;
+  justify-content: space-between;
+}
+
+.best-section-hpn input::-webkit-input-placeholder {
+  color: var(--text-strong);
+  opacity: 32%;
+}
+.best-section-hpn input::-moz-placeholder {
+  color: var(--text-strong);
+  opacity: 32%;
+}
+.best-section-hpn input:-ms-input-placeholder {
+  color: var(--text-strong);
+  opacity: 32%;
+}
+.best-section-hpn input:-moz-placeholder {
+  color: var(--text-strong);
+  opacity: 32%;
 }
 
 .best-section-hpn .mc4wp-form-fields .button {
@@ -43,6 +63,9 @@
 
 .best-section-hpn .mc4wp-form-fields input[type="email"] {
   border: none;
+  color: var(--text-inverse-strong);
+  margin: 0px !important;
+  width: 100%;
 }
 
 footer {
@@ -257,5 +280,12 @@ footer .logo-section img {
   }
   footer .menu-two-colum .logo-list ul {
     justify-content: flex-start;
+  }
+  .best-section-hpn .mc4wp-form-fields {
+    width: auto;
+    display: inline-flex;
+    border: 1px solid var(--stroke-inverse-weak);
+    max-width: 100%;
+    justify-content: flex-end;
   }
 }
