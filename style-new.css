@@ -1044,6 +1044,10 @@ p {
   object-fit: cover;
 }
 
+.stay-four-coloum-hpn .stay-four-col:nth-child(4n + 1) {
+  padding-left: 0;
+}
+
 .stay-four-coloum-hpn .stay-four-col {
   padding-left: 4px;
   padding-right: 4px;

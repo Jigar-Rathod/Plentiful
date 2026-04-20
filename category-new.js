@@ -9,17 +9,15 @@ document.addEventListener("DOMContentLoaded", function () {
       // Close all
       itemsfaq.forEach((el) => {
         el.classList.remove("active");
-        const icon = el.querySelector(".icon i");
-        icon.classList.remove("fa-minus");
-        icon.classList.add("fa-plus");
+        const img = el.querySelector(".icon-img");
+        img.src = "img/plus-icon.svg";
       });
 
       // Toggle current
       if (!isActive) {
         item.classList.add("active");
-        const icon = item.querySelector(".icon i");
-        icon.classList.remove("fa-plus");
-        icon.classList.add("fa-minus");
+        const img = item.querySelector(".icon-img");
+        img.src = "img/minus-icon.svg"; // 👉 your local minus image
       }
     });
   });

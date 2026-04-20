@@ -270,11 +270,11 @@
   position: relative;
   display: flex;
   align-items: flex-start;
+  cursor: pointer;
 }
 
 .faq-section .faq-item .faq-question h4 {
   padding-bottom: 0;
-  cursor: pointer;
   position: relative;
   font-weight: 500;
 }
