@@ -984,9 +984,6 @@ p {
   align-items: center;
   justify-content: flex-start;
   gap: 0 10px;
-}
-
-.shop-before-control .product-filter .button-filter span.filter-text {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 16%;
