@@ -194,7 +194,6 @@ body a {
   --text-weak: rgba(20, 25, 31, 0.64);
   --text-inverse-strong: rgba(255, 255, 255, 1);
   --text-inverse-weak: rgba(255, 255, 255, 0.72);
-  --fill-inverse-strong: rgba(255, 255, 255, 1);
   --stroke-weak: rgba(20, 25, 31, 0.2);
   --stroke-inverse-weak: rgba(255, 255, 255, 0.24);
   --stroke-disabled: rgba(20, 25, 31, 0.12);
