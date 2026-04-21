@@ -25,20 +25,40 @@
 }
 
 .best-section-hpn input[type="email"]::-webkit-input-placeholder {
-  color: var(--text-inverse-strong);
+  line-height: 1.5;
+  color: var(--text-strong);
   opacity: 32%;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 3%;
 }
 .best-section-hpn input[type="email"]::-moz-placeholder {
-  color: var(--text-inverse-strong);
+  line-height: 1.5;
+  color: var(--text-strong);
   opacity: 32%;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 3%;
 }
 .best-section-hpn input[type="email"]:-ms-input-placeholder {
-  color: var(--text-inverse-strong);
+  line-height: 1.5;
+  color: var(--text-strong);
   opacity: 32%;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 3%;
 }
 .best-section-hpn input[type="email"]:-moz-placeholder {
-  color: var(--text-inverse-strong);
+  line-height: 1.5;
+  color: var(--text-strong);
   opacity: 32%;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 3%;
 }
 
 .best-section-hpn form#mc4wp-form-1 {
