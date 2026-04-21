@@ -25,19 +25,19 @@
 }
 
 .best-section-hpn input[type="email"]::-webkit-input-placeholder {
-  color: var(--text-strong);
+  color: var(--text-inverse-strong);
   opacity: 32%;
 }
 .best-section-hpn input[type="email"]::-moz-placeholder {
-  color: var(--text-strong);
+  color: var(--text-inverse-strong);
   opacity: 32%;
 }
 .best-section-hpn input[type="email"]:-ms-input-placeholder {
-  color: var(--text-strong);
+  color: var(--text-inverse-strong);
   opacity: 32%;
 }
 .best-section-hpn input[type="email"]:-moz-placeholder {
-  color: var(--text-strong);
+  color: var(--text-inverse-strong);
   opacity: 32%;
 }
 
