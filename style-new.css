@@ -951,6 +951,7 @@ p {
 .stay-four-coloum-hpn .active-filters-bar ul li {
   border: 1px solid rgba(20, 25, 31, 0.16);
   background-color: rgba(20, 25, 31, 0.06);
+  padding: 4px 8px;
 }
 
 .stay-four-coloum-hpn .active-filters-bar ul li a {
@@ -1711,6 +1712,32 @@ p {
   .action-section-hpn .moblie-view {
     display: block;
     margin-block: 32px 72px;
+  }
+  .shop-before-control {
+    margin-bottom: 0;
+    border: none;
+    position: relative;
+    display: inline;
+    align-items: center;
+    margin-left: 0;
+  }
+  .shop-before-control .product-filter {
+    position: relative;
+    margin-left: 20px;
+    float: left;
+  }
+  .shop-before-control .woocommerce-ordering-wrapper {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+  }
+  .stay-four-coloum-hpn .active-filters-bar {
+    position: relative;
+    top: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
