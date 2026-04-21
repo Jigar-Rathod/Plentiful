@@ -57,7 +57,7 @@
 .yoga-section-hpn .row {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .yoga-section-hpn .row .col-12 {
@@ -76,8 +76,8 @@
 }
 
 .yoga-section-hpn .yoga-inner-section {
-  width: 19%;
-  flex: 0 0 19%;
+  width: 18.4%;
+  flex: 0 0 18.4%;
   height: 100%;
 }
 
@@ -321,11 +321,18 @@
 
 @media only screen and (max-width: 1600px) {
   .yoga-section-hpn .yoga-inner-section {
-    width: 18%;
-    flex: 0 0 18%;
+    width: 18.4%;
+    flex: 0 0 18.4%;
   }
   .yoga-section-hpn .yoga-inner-section:not(:last-child) {
     margin-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .yoga-section-hpn .yoga-inner-section {
+    width: 18%;
+    flex: 0 0 18%;
   }
 }
 

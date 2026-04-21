@@ -349,7 +349,30 @@
 
 @media only screen and (max-width: 991px) {
   .header {
-    padding-inline: 20px;
+    padding-inline: 20px 0;
+  }
+
+  .header .container {
+    padding: 0 11px;
+  }
+
+  body.menu-open .header {
+    padding-inline: 20px 0px;
+  }
+
+  body.menu-open .header .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .header
+    .menu-section-header
+    .header-menu-list
+    ul
+    li.dropdown.mega-dropdown.open
+    .dropdown-menu
+    .container {
+    padding: 0;
   }
 
   .header .row {
@@ -512,12 +535,6 @@
 @media only screen and (max-width: 767px) {
   .header .search-section .block-userlink.ocolus-dropdown ul.sub-menu {
     left: -60px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .mega-dropdown.open .mega-menu {
-    padding-left: 10px;
   }
 }
 
