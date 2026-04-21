@@ -139,7 +139,7 @@
   color: var(--fill-inverse-strong);
 }
 .getting-section-hpn .getting-right p {
-  color: var(--fill-inverse-weak);
+  color: var(--text-inverse-weak);
   padding-bottom: 32px;
 }
 
