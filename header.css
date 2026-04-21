@@ -359,6 +359,8 @@
 @media only screen and (max-width: 991px) {
   .header-hpn i.fa {
     font-size: 20px;
+    width: 20px;
+    height: 20px;
   }
   .header-hpn {
     padding-inline: 20px;
@@ -372,7 +374,7 @@
   }
 
   body.menu-open .header-hpn {
-    padding-inline: 20px 0px;
+    padding-inline: 20px;
   }
 
   body.menu-open .header-hpn .row {

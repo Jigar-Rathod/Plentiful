@@ -26,7 +26,7 @@
 
 .best-section-hpn input[type="email"]::-webkit-input-placeholder {
   line-height: 1.5;
-  color: var(--text-strong);
+  color: var(--text-inverse-strong);
   opacity: 32%;
   text-transform: capitalize;
   font-weight: 400;
@@ -35,7 +35,7 @@
 }
 .best-section-hpn input[type="email"]::-moz-placeholder {
   line-height: 1.5;
-  color: var(--text-strong);
+  color: var(--text-inverse-strong);
   opacity: 32%;
   text-transform: capitalize;
   font-weight: 400;
@@ -44,7 +44,7 @@
 }
 .best-section-hpn input[type="email"]:-ms-input-placeholder {
   line-height: 1.5;
-  color: var(--text-strong);
+  color: var(--text-inverse-strong);
   opacity: 32%;
   text-transform: capitalize;
   font-weight: 400;
@@ -53,7 +53,7 @@
 }
 .best-section-hpn input[type="email"]:-moz-placeholder {
   line-height: 1.5;
-  color: var(--text-strong);
+  color: var(--text-inverse-strong);
   opacity: 32%;
   text-transform: capitalize;
   font-weight: 400;
@@ -296,6 +296,20 @@
   .best-section-hpn form#mc4wp-form-1 {
     flex-wrap: wrap;
   }
+  .best-section-hpn .mc4wp-form-fields {
+    width: 100%;
+    max-width: 100%;
+  }
+  .best-section-hpn .mc4wp-form-fields .button {
+    position: relative;
+    width: 100%;
+    margin-top: 12px;
+  }
+  .best-section-hpn .mc4wp-form-fields {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -341,14 +355,5 @@
   }
   .footer-hpn .menu-two-colum .logo-list ul {
     justify-content: flex-start;
-  }
-  .best-section-hpn .mc4wp-form-fields {
-    width: 100%;
-    max-width: 100%;
-  }
-  .best-section-hpn .mc4wp-form-fields .button {
-    position: relative;
-    width: 100%;
-    margin-top: 12px;
   }
 }
