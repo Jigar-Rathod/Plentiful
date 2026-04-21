@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// icon changes
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".Hamburger-menu a").forEach(function (btn) {
     btn.addEventListener("click", function (e) {

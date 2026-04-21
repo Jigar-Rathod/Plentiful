@@ -351,6 +351,7 @@
   .header {
     padding-inline: 20px;
   }
+
   .header .row {
     justify-content: flex-start;
     display: flex;
@@ -359,6 +360,7 @@
     margin-right: 7px;
     width: 100%;
   }
+
   .header .logo-section,
   .header .search-section {
     width: 48%;

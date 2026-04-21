@@ -1103,6 +1103,8 @@ p {
   width: auto;
   height: auto;
   aspect-ratio: initial !important;
+  margin-left: 10px;
+  margin-right: 0;
 }
 /* stay-four-section-end */
 .rating-section-hpn .rating-section-col {

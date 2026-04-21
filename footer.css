@@ -185,6 +185,7 @@ footer .menu-two-colum .logo-list ul li a {
   -ms-transition: all 0.8s;
   -o-transition: all 0.8s;
 }
+
 footer .menu-two-colum .logo-list ul li a:hover {
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
@@ -192,15 +193,18 @@ footer .menu-two-colum .logo-list ul li a:hover {
   -ms-transform: translateY(-10px);
   -o-transform: translateY(-10px);
 }
+
 footer .menu-two-colum .logo-list ul li:not(:last-child) {
   margin-right: 20px;
 }
+
 footer .logo-section img {
   display: block;
   width: 80px;
   height: 80px;
   aspect-ratio: 80 / 80;
 }
+
 @media only screen and (min-width: 1920px) {
   .best-section-hpn .row,
   footer .row {
