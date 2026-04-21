@@ -596,7 +596,6 @@ p {
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
-  white-space: nowrap;
 }
 
 .tabing-section-hpn .tab-content .tab-inner .links svg {
