@@ -1802,21 +1802,19 @@ p {
   }
   .shop-before-control .product-filter {
     position: relative;
-    margin-left: 20px;
     float: left;
     left: 0;
   }
   .shop-before-control .woocommerce-ordering-wrapper {
     position: relative;
     float: right;
-    margin-right: 20px;
     right: 0;
   }
   .stay-four-coloum-hpn .active-filters-bar {
     position: relative;
     top: 0;
     z-index: 9999;
-    margin-left: 20px;
+    margin-left: 0;
     margin-top: 20px;
     margin-bottom: 20px;
   }
