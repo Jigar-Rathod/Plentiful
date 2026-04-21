@@ -71,6 +71,10 @@
   margin-inline: auto;
 }
 
+.yoga-section-hpn .yoga-main-section h2 {
+  margin-bottom: 6px;
+}
+
 .yoga-section-hpn .yoga-main-section {
   padding-bottom: 48px;
 }
@@ -93,7 +97,7 @@
 }
 
 .yoga-section-hpn .yoga-inner-section h3 {
-  margin: 0;
+  margin: 0 0 2px;
 }
 
 .getting-section-hpn {
@@ -355,7 +359,7 @@
   }
   .yoga-section-hpn .row {
     flex-wrap: wrap;
-    margin-inline: 24px;
+    margin-inline: 0;
   }
   .yoga-section-hpn .row .yoga-inner-section {
     margin-bottom: 30px;
@@ -414,7 +418,10 @@
     height: 400px;
   }
   .getting-section-hpn .getting-right {
-    padding: 72px 24px;
+    padding: 72px 20px;
+  }
+  .faq-section .faq-row {
+    margin-inline: 20px;
   }
 }
 
