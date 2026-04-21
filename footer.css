@@ -241,6 +241,9 @@
   line-height: 1.5;
   font-weight: 500;
   color: var(--text-strong);
+  display: block;
+  width: 100%;
+  padding-top: 20px;
 }
 @media only screen and (min-width: 1920px) {
   .best-section-hpn .row,

@@ -358,14 +358,17 @@
 
 @media only screen and (max-width: 991px) {
   .header-hpn i.fa {
-    font-size: 18px;
+    font-size: 20px;
   }
   .header-hpn {
-    padding-inline: 0;
+    padding-inline: 20px;
   }
-
   .header-hpn .container {
     padding: 0px;
+  }
+
+  body.menu-open .header-hpn .container {
+    padding: 0;
   }
 
   body.menu-open .header-hpn {
@@ -375,6 +378,11 @@
   body.menu-open .header-hpn .row {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .header-hpn .search-section .search-menu-list {
+    display: flex;
+    align-items: center;
   }
 
   .header-hpn
@@ -391,15 +399,23 @@
     justify-content: flex-start;
     display: flex;
     align-items: center;
-    margin-left: 7px;
-    margin-right: 7px;
+    margin-right: 0;
     width: 100%;
+    margin-left: 0;
   }
 
   .header-hpn .logo-section,
   .header-hpn .search-section {
-    width: 48%;
-    flex: 0 0 48%;
+    width: 46%;
+    flex: 0 0 46%;
+  }
+  .header-hpn .search-section {
+    margin-right: 10px;
+  }
+  .header-hpn .search-section .search-menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .header-hpn .menu-section-header {
     display: none;
@@ -422,7 +438,7 @@
     display: block;
   }
   .header-hpn .menu-section-header .header-menu-list {
-    padding-inline: 5px;
+    padding-inline: 0;
     width: 100%;
     height: 100%;
   }
