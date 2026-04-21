@@ -1504,9 +1504,13 @@ textarea {
 .shop-before-control .woocommerce-ordering-wrapper::before {
   content: "Sort by";
   position: absolute;
-  left: -50px;
+  left: -65px;
   top: 10px;
   color: var(--text-weak);
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  font-weight: 500;
 }
 
 .site-main .ovic-shop-filter .inner-content {
