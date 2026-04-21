@@ -1202,6 +1202,21 @@ p {
   overflow: scroll hidden;
 }
 
+.rating-section-hpn .rating-section-col-inner .for-product-name span {
+  margin: 0;
+  padding: 0;
+  font-size: clamp(14px, calc(13.6px + 0.125vw), 16px);
+  line-height: 1.5;
+  color: var(--text-weak);
+}
+
+.rating-section-hpn .rating-section-col-inner .for-product-name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 5px;
+}
+
 .rating-section-hpn .rating-section-col-inner {
   margin-top: 20px;
   padding-inline: 12px;
@@ -1240,7 +1255,7 @@ p {
   flex: 0 0 33.33%;
 }
 
-.rating-section-hpn .rating-section-col-inner p + p {
+.rating-section-hpn .rating-section-col-inner .for-product-name p {
   text-decoration: underline;
 }
 
