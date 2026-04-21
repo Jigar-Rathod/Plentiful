@@ -207,6 +207,11 @@ body a {
   max-width: 1872px;
 }
 
+.container .container {
+  padding-left: inherit;
+  padding-right: inherit;
+}
+
 ::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: var(--text-strong);
@@ -448,6 +453,10 @@ p {
   text-align: center;
 }
 
+.tabing-section-hpn .tabing-inner h2 {
+  margin-bottom: 5px;
+}
+
 .tabing-section-hpn .nav-tabs,
 .tabing-section-hpn .nav-tabs > li > a,
 .tabing-section-hpn .nav-tabs > li.active > a,
@@ -460,7 +469,7 @@ p {
   justify-content: center;
   font-family: "itc_avant_garde_gothic_proMd" !important;
   font-weight: 700;
-  font-size: clamp(14px, calc(13.6px + 0.125vw), 16px);
+  font-size: clamp(14px, calc(13.6px + 0.125vw), 15px);
   white-space: nowrap;
   overflow: scroll hidden;
 }
@@ -523,7 +532,7 @@ p {
 }
 
 .tabing-section-hpn .tab-content {
-  margin-block: 32px;
+  margin-block: 32px 0;
 }
 
 .tabing-section-hpn .tab-content .row {
@@ -558,6 +567,7 @@ p {
   line-height: 1.5;
   color: var(--text-strong);
   font-weight: 500;
+  margin-bottom: 2px;
 }
 
 .tabing-section-hpn .tab-content .tab-inner p {
@@ -609,7 +619,7 @@ p {
 
 .tabing-section-hpn .tabing-btn {
   max-width: 900px;
-  margin: 0px auto;
+  margin: 32px auto 0;
   text-align: center;
 }
 
@@ -777,6 +787,10 @@ p {
   cursor: pointer;
 }
 
+.four-boxes-hpn .four-boxes-right .four-boxes-right-box-txt h3 {
+  margin-bottom: 4px;
+}
+
 .four-boxes-hpn .four-boxes-right .four-boxes-right-box-inner img {
   margin-bottom: 12px;
   display: block;
@@ -784,6 +798,7 @@ p {
 
 .four-boxes-hpn .four-boxes-right .four-boxes-right-box-txt p {
   padding-bottom: 20px;
+  font-size: clamp(13px, calc(12.8px + 0.063vw), 14px);
 }
 
 .four-boxes-hpn .four-boxes-right .four-boxes-right-box-txt a {
@@ -795,6 +810,10 @@ p {
   color: var(--text-strong);
   display: flex;
   align-items: center;
+}
+
+.four-boxes-hpn .four-boxes-right-box-txt h3 {
+  margin-bottom: 4px;
 }
 
 .four-boxes-hpn .four-boxes-right .four-boxes-right-box-txt a svg {
@@ -836,6 +855,7 @@ p {
 
 .four-boxes-hpn.vertical-box .four-boxes-right-box p {
   padding-bottom: 0;
+  font-size: clamp(13px, calc(12.8px + 0.063vw), 14px);
 }
 
 .four-boxes-hpn.vertical-box .four-boxes-right .four-boxes-right-box {
@@ -891,6 +911,11 @@ p {
   flex-wrap: wrap;
 }
 
+.grey-bg-hpn .grey-left h2 {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
 .grey-bg-hpn .grey-bg-right {
   background: linear-gradient(
     rgba(255, 255, 255, 0.08),
@@ -911,9 +936,12 @@ p {
 }
 
 .grey-bg-hpn .grey-bg-right .h4 {
-  margin: 0;
+  margin: 0 0 8px;
 }
 
+.grey-bg-hpn .grey-bg-right p {
+  font-size: clamp(13px, calc(12.8px + 0.063vw), 14px);
+}
 .grey-bg-hpn .row .row .col-md-6 {
   padding-left: 8px;
   padding-right: 8px;
@@ -1031,6 +1059,7 @@ p {
   align-items: center;
   justify-content: flex-start;
   margin-top: 10px;
+  gap: 0 10px;
 }
 
 .stay-four-coloum-hpn .price-cat span,
@@ -1043,7 +1072,7 @@ p {
   align-items: flex-start;
   justify-content: center;
   white-space: nowrap;
-  gap: 0 10px;
+  gap: 0 5px;
 }
 
 .stay-four-coloum-hpn .price-cat span.woocommerce-Price-amount.amount,
@@ -1063,13 +1092,17 @@ p {
   .price-cat
   span.woocommerce-Price-amount.amount.amount:first-child {
   padding-left: 0;
-  padding-right: 10px;
+  padding-right: 0;
 }
 
 .stay-four-coloum-hpn .price-cat span svg,
 .products.shop-page .stay-four-inner .price-cat span svg {
   margin-right: 5px;
   margin-top: 3px;
+}
+
+.stay-four-coloum-hpn .price-cat span svg {
+  margin-right: 0;
 }
 
 .stay-four-coloum-hpn .price-cat span img,
@@ -1104,7 +1137,7 @@ p {
   width: auto;
   height: auto;
   aspect-ratio: initial !important;
-  margin-left: 10px;
+  margin-left: 0;
   margin-right: 0;
 }
 /* stay-four-section-end */
@@ -1138,6 +1171,7 @@ p {
   display: flex;
   justify-content: flex-start;
   color: var(--text-weak);
+  margin-bottom: 8px;
 }
 
 .rating-section-hpn .rating-section-col-inner span {
@@ -1148,12 +1182,27 @@ p {
   padding-block: 12px 8px;
   display: block;
 }
+
+.rating-section-hpn .rating-section-col-inner span.star {
+  font-size: clamp(16px, calc(14.2px + 0.563vw), 20px);
+  line-height: normal;
+  font-weight: 500;
+  padding-block: 0 12px;
+  display: block;
+  color: var(--text-weak);
+}
+
 .rating-section-hpn .col-12 {
   padding-left: 4px;
 }
+
 .rating-section-hpn .rating-section-col {
   width: 33.33%;
   flex: 0 0 33.33%;
+}
+
+.rating-section-hpn .rating-section-col-inner p + p {
+  text-decoration: underline;
 }
 
 .form-section-hpn,
@@ -1166,7 +1215,9 @@ p {
   align-items: flex-start;
   flex-wrap: wrap;
 }
-
+.form-section-hpn .form-left h2 {
+  margin: 0 0 12px;
+}
 .form-section-hpn .form-right {
   padding-left: 175px;
 }
@@ -1179,6 +1230,10 @@ p {
 .form-section-hpn .form-right .form-row .form-col-50 {
   width: 49%;
   flex: 0 0 49%;
+}
+
+.form-section-hpn .form-right .wpcf7 p {
+  margin-bottom: 0;
 }
 
 .form-section-hpn .form-right .form-row .form-col-100,
@@ -1347,6 +1402,7 @@ p {
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   background-color: var(--text-strong);
+  margin-top: 0;
 }
 
 .site-main {
@@ -1523,6 +1579,9 @@ p {
 }
 
 @media only screen and (max-width: 991px) {
+  .container {
+    padding-inline: 20px;
+  }
   .mx24 {
     margin-inline: 0;
   }
@@ -1545,7 +1604,7 @@ p {
     padding: 10px 8px;
   }
   .tabing-section-hpn.mx24 {
-    margin-left: 20px;
+    margin-left: 0;
   }
   .tabing-section-hpn .tab-content .tab-inner a {
     font-size: 13px;
@@ -1631,11 +1690,9 @@ p {
   .rating-section-hpn .row {
     margin-top: 40px;
   }
-  .rating-section-hpn .rating-section-col-inner .rating-stars span {
-    color: var(--text-weak);
-  }
   .form-section-hpn .form-right {
     padding-left: 20px;
+    padding-top: 32px;
   }
   .action-section-hpn .action-section-inner {
     width: 35%;
@@ -1655,6 +1712,9 @@ p {
   }
   .stay-four-coloum-hpn .active-filters-bar {
     margin-left: 110px;
+  }
+  .action-section-hpn .row.pt48 {
+    padding-top: 32px;
   }
 }
 
@@ -1690,7 +1750,7 @@ p {
   }
   .tabing-section-hpn .tabing-btn {
     max-width: 100%;
-    margin: 0 20px 0 0;
+    margin: 24px 20px 0 0;
     text-align: left;
   }
   .tabing-section-hpn .tabing-inner {
@@ -1753,6 +1813,19 @@ p {
   .stay-four-coloum-hpn .stay-four-col {
     width: 100%;
     flex: 0 0 100%;
+  }
+  .four-boxes-hpn .four-boxes-right {
+    padding: 32px 0 0 20px;
+  }
+  .four-boxes-hpn.mb72 {
+    margin-bottom: 0;
+  }
+  .grey-bg-hpn {
+    padding: 72px 0;
+  }
+  .stay-four-coloum-hpn .row {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 

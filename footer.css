@@ -7,6 +7,7 @@
 }
 .best-section-hpn h2 {
   color: var(--text-inverse-strong);
+  margin-bottom: 6px;
 }
 .best-section-hpn p {
   color: var(--text-inverse-weak);
@@ -19,10 +20,8 @@
 } */
 .best-section-hpn .mc4wp-form-fields {
   width: 560px;
-  display: inline-flex;
-  border: 1px solid var(--stroke-inverse-weak);
   max-width: 560px;
-  justify-content: space-between;
+  position: relative;
 }
 
 .best-section-hpn input[type="email"]::-webkit-input-placeholder {
@@ -42,6 +41,12 @@
   opacity: 32%;
 }
 
+.best-section-hpn form#mc4wp-form-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .best-section-hpn .mc4wp-form-fields .button {
   border: 1px solid var(--stroke-inverse-weak);
   color: var(--text-strong);
@@ -50,7 +55,7 @@
   font-weight: 500;
   letter-spacing: 16%;
   text-transform: uppercase;
-  padding: 12px 20px;
+  padding: 16px 20px;
   display: inline-block;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
@@ -58,6 +63,7 @@
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   background-color: var(--text-inverse-strong);
+  position: absolute;
 }
 
 .best-section-hpn .mc4wp-form-fields input[type="email"] {
@@ -65,27 +71,28 @@
   color: var(--text-inverse-strong);
   margin: 0px !important;
   width: 100%;
+  border: 1px solid var(--stroke-weak);
 }
 
-footer {
+.footer-hpn {
   background-color: rgba(248, 246, 242, 1);
   padding: 72px 24px 33px;
   margin-inline: auto;
 }
-footer .row {
+.footer-hpn .row {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
-footer .container {
+.footer-hpn .container {
   padding: 0;
 }
-footer .menu-section {
+.footer-hpn .menu-section {
   padding-left: 175px;
   display: flex;
   justify-content: space-between;
 }
-footer .menu-section span {
+.footer-hpn .menu-section span {
   font-size: 12px;
   line-height: 1.5;
   color: var(--text-weak);
@@ -95,14 +102,14 @@ footer .menu-section span {
   display: block;
   letter-spacing: 16%;
 }
-footer .menu-section ul {
+.footer-hpn .menu-section ul {
   list-style: none;
 }
-footer .menu-section ul li:not(:last-child) {
+.footer-hpn .menu-section ul li:not(:last-child) {
   padding-bottom: 12px;
   display: block;
 }
-footer .menu-section ul li a {
+.footer-hpn .menu-section ul li a {
   font-size: clamp(13px, calc(12.8px + 0.063vw), 14px);
   line-height: 1.5;
   font-weight: 500;
@@ -119,7 +126,7 @@ footer .menu-section ul li a {
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
-footer .menu-section ul li a::before {
+.footer-hpn .menu-section ul li a::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -139,45 +146,50 @@ footer .menu-section ul li a::before {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-footer .menu-section ul li a:hover::before,
-footer .menu-section ul li a:focus::before,
-footer .menu-section ul li a:active::before {
+.footer-hpn .menu-section ul li a:hover::before,
+.footer-hpn .menu-section ul li a:focus::before,
+.footer-hpn .menu-section ul li a:active::before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
-footer .two-logo-section {
+.footer-hpn .two-logo-section {
   padding-left: 24px;
 }
-footer .two-logo-section,
-footer .logo-section {
+.footer-hpn .two-logo-section,
+.footer-hpn .logo-section {
   width: auto;
 }
-footer .two-logo-section img {
+.footer-hpn .two-logo-section img {
   display: block;
   aspect-ratio: 212/44;
   object-fit: cover;
 }
-footer .menu-main-section {
+.footer-hpn .menu-main-section {
   padding-bottom: 48px;
   border-bottom: 1px solid var(--stroke-weak);
 }
-footer .menu-two-colum {
+.footer-hpn .menu-main-section .logo-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.footer-hpn .menu-two-colum {
   margin-top: 26px;
 }
-footer .menu-two-colum .row {
+.footer-hpn .menu-two-colum .row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   list-style: none;
 }
-footer .menu-two-colum .logo-list ul {
+.footer-hpn .menu-two-colum .logo-list ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-footer .menu-two-colum .logo-list ul li a {
+.footer-hpn .menu-two-colum .logo-list ul li a {
   display: block;
   transition: all 0.8s;
   -webkit-transition: all 0.8s;
@@ -186,7 +198,7 @@ footer .menu-two-colum .logo-list ul li a {
   -o-transition: all 0.8s;
 }
 
-footer .menu-two-colum .logo-list ul li a:hover {
+.footer-hpn .menu-two-colum .logo-list ul li a:hover {
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
   -moz-transform: translateY(-10px);
@@ -194,108 +206,124 @@ footer .menu-two-colum .logo-list ul li a:hover {
   -o-transform: translateY(-10px);
 }
 
-footer .menu-two-colum .logo-list ul li:not(:last-child) {
+.footer-hpn .menu-two-colum .logo-list ul li:not(:last-child) {
   margin-right: 20px;
 }
 
-footer .logo-section img {
+.footer-hpn .logo-section img {
   display: block;
   width: 80px;
   height: 80px;
   aspect-ratio: 80 / 80;
+  object-fit: cover;
 }
-
+.footer-hpn .logo-section p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--text-strong);
+}
 @media only screen and (min-width: 1920px) {
   .best-section-hpn .row,
-  footer .row {
+  .footer-hpn .row {
     margin-inline: 0;
   }
   .best-section-hpn,
-  footer {
+  .footer-hpn {
     max-width: 1872px;
   }
 }
 
 @media only screen and (max-width: 1299px) {
-  footer .menu-section {
+  .footer-hpn .menu-section {
     padding-left: 130px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  footer .menu-section {
+  .footer-hpn .menu-section {
     padding-left: 80px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  footer .row {
+  .footer-hpn .row {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
-  footer .menu-section-inner:not(:last-child) {
+  .footer-hpn .menu-section-inner:not(:last-child) {
     padding-right: 20px;
   }
-  footer .two-logo-section {
+  .footer-hpn .two-logo-section {
     padding-left: 15px;
     padding-top: 20px;
   }
-  footer .two-logo-section,
-  footer .logo-section {
+  .footer-hpn .two-logo-section,
+  .footer-hpn .logo-section {
     width: 20%;
     flex: 0 0 20%;
   }
-  footer .menu-section {
+  .footer-hpn .menu-section {
     width: 80%;
     flex: 0 0 80%;
     padding-left: 50px;
   }
 }
-
-@media only screen and (max-width: 768px) {
-  footer .two-logo-section,
-  footer .logo-section,
-  footer .menu-section-inner,
-  footer .menu-two-colum .col-sm-6 {
-    width: 100%;
-    flex: 0 0 100%;
+@media only screen and (max-width: 991px) {
+  .best-section-hpn p {
+    padding-bottom: 25px;
   }
-  footer .menu-section {
-    width: 100%;
-    flex: 0 0 100%;
-    padding: 48px 0 40px 15px;
-  }
-  footer .menu-section {
+  .best-section-hpn form#mc4wp-form-1 {
     flex-wrap: wrap;
   }
-  footer .two-logo-section {
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-hpn .two-logo-section,
+  .footer-hpn .logo-section,
+  .footer-hpn .menu-section-inner,
+  .footer-hpn .menu-two-colum .col-sm-6 {
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  .footer-hpn .menu-section {
+    width: 100%;
+    flex: 0 0 100%;
+    padding: 48px 0 40px 20px;
+  }
+  .footer-hpn .menu-section {
+    flex-wrap: wrap;
+  }
+  .footer-hpn .two-logo-section {
     padding-left: 15px;
     padding-top: 0px;
   }
-  footer .menu-section-inner:not(:last-child) {
+  .footer-hpn .menu-section-inner:not(:last-child) {
     padding-right: 0px;
     padding-bottom: 32px;
   }
-  footer .menu-section span {
+  .footer-hpn .menu-section span {
     padding-bottom: 12px;
   }
-  footer .menu-two-colum {
+  .footer-hpn .menu-two-colum {
     margin-top: 16px;
   }
-  footer .menu-two-colum .row {
+  .footer-hpn .menu-two-colum .row {
     flex-wrap: wrap;
     justify-content: flex-start;
     flex-direction: column-reverse;
   }
-  footer .menu-two-colum .logo-list {
+  .footer-hpn .menu-two-colum .logo-list {
     margin-bottom: 10px;
   }
-  footer .menu-two-colum .logo-list ul {
+  .footer-hpn .menu-two-colum .logo-list ul {
     justify-content: flex-start;
   }
   .best-section-hpn .mc4wp-form-fields {
-    width: auto;
-    display: inline-flex;
-    border: 1px solid var(--stroke-inverse-weak);
+    width: 100%;
     max-width: 100%;
-    justify-content: flex-end;
+  }
+  .best-section-hpn .mc4wp-form-fields .button {
+    position: relative;
+    width: 100%;
+    margin-top: 12px;
   }
 }
