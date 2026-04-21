@@ -1501,6 +1501,14 @@ textarea {
   top: 0;
 }
 
+.shop-before-control .woocommerce-ordering-wrapper::before {
+  content: "Sort by";
+  position: absolute;
+  left: -50px;
+  top: 10px;
+  color: var(--text-weak);
+}
+
 .site-main .ovic-shop-filter .inner-content {
   background: transparent;
   border: none;
