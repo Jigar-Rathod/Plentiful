@@ -134,12 +134,12 @@
   padding: 72px 48px;
 }
 
-.getting-section-hpn .getting-right h2,
-.getting-section-hpn .getting-right p {
+.getting-section-hpn .getting-right h2 {
+  padding-bottom: 6px;
   color: var(--fill-inverse-strong);
 }
-
 .getting-section-hpn .getting-right p {
+  color: var(--fill-inverse-weak);
   padding-bottom: 32px;
 }
 
@@ -151,7 +151,7 @@
   color: var(--fill-inverse-strong);
   opacity: 1;
   border-bottom: 1px solid var(--fill-inverse-strong);
-  padding: 0;
+  padding: 0 0 9px 0;
 }
 
 .getting-section-hpn .getting-right .nav-tabs > li > a {
@@ -169,7 +169,7 @@
   background-color: transparent;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 12%;
+  letter-spacing: 24%;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -179,7 +179,7 @@
 }
 
 .getting-section-hpn .nav-tabs > li {
-  padding: 9px 12px 9px 0px;
+  padding: 9px 12px 0 0px;
 }
 
 .getting-section-hpn .tab-content {
@@ -212,10 +212,13 @@
 
 .getting-section-hpn .steps-section .step .content {
   padding-left: 56px;
+  padding-top: 6px;
 }
 
 .getting-section-hpn .steps-section .step p {
   padding-bottom: 0;
+  font-size: clamp(13px, calc(12.8px + 0.063vw), 14px);
+  color: var(--text-inverse-weak);
 }
 
 .getting-section-hpn .steps-section .step .circle {
@@ -283,15 +286,12 @@
   font-weight: 500;
 }
 
-.faq-section .faq-item.active .faq-question h4 {
-  padding-bottom: 12px;
-}
-
 /* Plus/Minus */
 .faq-section .faq-question .icon {
   position: absolute;
   right: 10px;
   font-size: 20px;
+  line-height: 1.5;
 }
 
 /* Answer */
@@ -311,6 +311,10 @@
 
 .faq-section .faq-item:first-child {
   padding-block: 24px 0;
+}
+
+.faq-section .faq-item.active .faq-question {
+  margin-bottom: 12px;
 }
 
 @media only screen and (min-width: 1920px) {
