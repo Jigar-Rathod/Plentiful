@@ -1939,6 +1939,22 @@ textarea {
     width: 47%;
     flex: 0 0 47%;
   }
+  .shop-before-control .product-filter {
+    flex: 0 0 90%;
+    width: 90%;
+  }
+  .shop-before-control .woocommerce-ordering-wrapper {
+    flex: 0 0 90%;
+    width: 90%;
+    left: 20px;
+    margin-top: 30px;
+  }
+  .stay-four-coloum-hpn .active-filters-bar {
+    margin: 20px;
+  }
+  .shop-before-control .woocommerce-ordering select {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 375px) {
