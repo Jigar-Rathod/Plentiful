@@ -277,6 +277,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .footer-hpn {
+    padding: 72px 24px 14px;
+  }
   .footer-hpn .two-logo-section,
   .footer-hpn .logo-section,
   .footer-hpn .menu-section-inner,
@@ -312,7 +315,7 @@
     flex-direction: column-reverse;
   }
   .footer-hpn .menu-two-colum .logo-list {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
   .footer-hpn .menu-two-colum .logo-list ul {
     justify-content: flex-start;
