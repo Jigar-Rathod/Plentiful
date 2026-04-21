@@ -87,11 +87,10 @@
 }
 
 .best-section-hpn .mc4wp-form-fields input[type="email"] {
-  border: none;
   color: var(--text-inverse-strong);
   margin: 0px !important;
   width: 100%;
-  border: 1px solid var(--stroke-weak);
+  border: 1px solid var(--stroke-inverse-weak);
 }
 
 .footer-hpn {

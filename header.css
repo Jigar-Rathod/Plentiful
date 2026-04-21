@@ -16,6 +16,7 @@
 .header-hpn .logo-section {
   width: 7%;
   flex: 0 0 7%;
+  margin-right: auto;
 }
 
 .header-hpn .logo-section img {
@@ -30,22 +31,22 @@
   padding-inline: 20px;
 }
 
-.header-hpn .menu-section-header .header-menu-list ul,
-.header-hpn .search-section .search-menu-list ul {
+.header-hpn .menu-section-header .header-menu-list > ul,
+.header-hpn .search-section .search-menu-list > ul {
   display: flex;
   align-items: center;
   justify-content: center;
   list-style: none;
 }
 
-.header-hpn .menu-section-header .header-menu-list ul {
+.header-hpn .menu-section-header .header-menu-list > ul {
   flex-wrap: wrap;
 }
-.header-hpn .search-section .search-menu-list ul {
+.header-hpn .search-section .search-menu-list > ul {
   justify-content: flex-end;
 }
 
-.header-hpn .search-section .search-menu-list ul li:not(:last-child) {
+.header-hpn .search-section .search-menu-list > ul li:not(:last-child) {
   padding-right: 16px;
 }
 
@@ -54,7 +55,7 @@
   padding-left: 15px;
 }
 
-.header-hpn .menu-section-header .header-menu-list ul li a {
+.header-hpn .menu-section-header .header-menu-list > ul li a {
   font-size: 14px;
   line-height: 1.5;
   font-weight: 500;
@@ -73,7 +74,7 @@
   transition-duration: 0.8s;
 }
 
-.header-hpn .menu-section-header .header-menu-list ul li a::before {
+.header-hpn .menu-section-header .header-menu-list > ul li a::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -94,16 +95,16 @@
   transition-timing-function: ease-out;
 }
 
-.header-hpn .menu-section-header .header-menu-list ul li a:hover::before,
-.header-hpn .menu-section-header .header-menu-list ul li a:focus::before,
-.header-hpn .menu-section-header .header-menu-list ul li a:active::before {
+.header-hpn .menu-section-header .header-menu-list > ul li a:hover::before,
+.header-hpn .menu-section-header .header-menu-list > ul li a:focus::before,
+.header-hpn .menu-section-header .header-menu-list > ul li a:active::before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-.header-hpn .menu-section-header .header-menu-list ul li:not(:last-child) {
+.header-hpn .menu-section-header .header-menu-list > ul li:not(:last-child) {
   padding-right: 20px;
 }
 
@@ -168,14 +169,14 @@
   box-shadow: none;
 }
 
-.header-hpn .menu-section-header .header-menu-list ul li .dropdown-toggle {
+.header-hpn .menu-section-header .header-menu-list > ul li .dropdown-toggle {
   position: relative;
 }
 
 .header-hpn
   .menu-section-header
   .header-menu-list
-  ul
+  > ul
   li
   .dropdown-toggle::after {
   content: "\f107";
@@ -196,7 +197,7 @@
   align-items: flex-start;
 }
 
-.header-hpn .menu-section-header .header-menu-list ul li .tab-inner a {
+.header-hpn .menu-section-header .header-menu-list > ul li .tab-inner a {
   text-decoration: underline;
 }
 
@@ -216,7 +217,7 @@
   color: var(--text-inverse-strong);
 }
 
-.header-hpn .menu-section-header .header-menu-list ul li a:hover::before {
+.header-hpn .menu-section-header .header-menu-list > ul li a:hover::before {
   all: inherit;
 }
 
@@ -334,7 +335,6 @@
   width: 230px;
   padding: 10px 0;
   top: 30px;
-  left: -150px;
 }
 
 .header-hpn
@@ -430,7 +430,7 @@
     margin-right: 0;
     position: inherit !important;
   }
-  .header-hpn .menu-section-header .header-menu-list ul li {
+  .header-hpn .menu-section-header .header-menu-list > ul li {
     padding-right: 0;
     display: flex;
     flex-wrap: wrap;
@@ -438,11 +438,11 @@
     padding-block: 16px;
     border-bottom: 1px solid var(--stroke-weak);
   }
-  .header-hpn .menu-section-header .header-menu-list ul li:last-child {
+  .header-hpn .menu-section-header .header-menu-list > ul li:last-child {
     padding-block: 16px 0;
     border-bottom: none;
   }
-  .header-hpn .menu-section-header .header-menu-list ul li a {
+  .header-hpn .menu-section-header .header-menu-list > ul li a {
     font-size: 16px;
     width: 100%;
   }
@@ -516,7 +516,7 @@
     border: none;
     justify-content: flex-start;
   }
-  .header-hpn .menu-section-header .header-menu-list ul li:not(:last-child) {
+  .header-hpn .menu-section-header .header-menu-list > ul li:not(:last-child) {
     padding-right: 0;
   }
   .header-hpn .tabing-section-hpn .tabing-btn ul li {

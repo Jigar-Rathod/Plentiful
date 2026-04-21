@@ -972,6 +972,11 @@ p {
   position: relative;
 }
 
+.stay-four-coloum-hpn .container,
+.rating-section-hpn .container {
+  padding: 0;
+}
+
 .shop-before-control .product-filter .button-filter {
   padding: 12px 20px;
   display: flex;
@@ -1118,7 +1123,7 @@ p {
   .price-cat
   span.woocommerce-Price-amount.amount {
   display: ruby;
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 .stay-four-coloum-hpn
@@ -1208,7 +1213,6 @@ p {
   display: flex;
   justify-content: flex-start;
   color: var(--text-weak);
-  margin-bottom: 8px;
 }
 
 .rating-section-hpn .rating-section-col-inner span {
@@ -1224,7 +1228,7 @@ p {
   font-size: clamp(16px, calc(14.2px + 0.563vw), 20px);
   line-height: normal;
   font-weight: 500;
-  padding-block: 0 12px;
+  padding-block: 0;
   display: block;
   color: var(--text-weak);
 }
@@ -1310,8 +1314,28 @@ p {
   color: var(--text-strong);
 }
 
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="search"],
+input[type="url"],
+input[type="number"],
+select,
+textarea {
+  border-color: var(--stroke-weak);
+}
+
 .action-section-hpn {
   border-top: 1px solid var(--stroke-weak);
+}
+
+.action-section-hpn .action-section-left {
+  padding-left: 4px;
+}
+
+.action-section-hpn .action-section-right {
+  padding-right: 4px;
 }
 
 .action-section-hpn {
@@ -1494,10 +1518,11 @@ p {
   color: var(--text-strong);
 }
 
-.woocommerce-pagination a.page-numbers {
+.woocommerce-pagination a.page-numbers,
+.woocommerce-pagination span.page-numbers.current {
   line-height: 42px !important;
   min-width: 42px !important;
-  margin: 0 10px 0 !important;
+  margin: 0 8px 0 0 !important;
   box-shadow: none !important;
   border: none !important;
 }
@@ -1537,6 +1562,12 @@ p {
   .four-boxes-hpn .row {
     margin-right: 0;
     margin-left: 0;
+  }
+  .action-section-hpn .action-section-left {
+    padding-left: 24px;
+  }
+  .action-section-hpn .action-section-right {
+    padding-right: 24px;
   }
 }
 @media only screen and (max-width: 1399px) {
