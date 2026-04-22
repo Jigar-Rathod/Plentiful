@@ -84,6 +84,7 @@
   -o-transition: all 0.5s ease-in-out;
   background-color: var(--text-inverse-strong);
   position: absolute;
+  right: 0;
 }
 
 .best-section-hpn .mc4wp-form-fields input[type="email"] {
@@ -107,7 +108,7 @@
   padding: 0;
 }
 .footer-hpn .menu-section {
-  padding-left: 175px;
+  /* padding-left: 175px; */
   display: flex;
   justify-content: space-between;
 }
@@ -122,6 +123,8 @@
   letter-spacing: 16%;
 }
 .footer-hpn .menu-section ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 .footer-hpn .menu-section ul li:not(:last-child) {
@@ -176,10 +179,10 @@
 .footer-hpn .two-logo-section {
   padding-left: 24px;
 }
-.footer-hpn .two-logo-section,
+/* .footer-hpn .two-logo-section,
 .footer-hpn .logo-section {
   width: auto;
-}
+} */
 .footer-hpn .two-logo-section img {
   display: block;
   aspect-ratio: 212/44;
@@ -207,6 +210,9 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .footer-hpn .menu-two-colum .logo-list ul li a {
   display: block;
@@ -256,7 +262,7 @@
   }
 }
 
-@media only screen and (max-width: 1299px) {
+/* @media only screen and (max-width: 1299px) {
   .footer-hpn .menu-section {
     padding-left: 130px;
   }
@@ -265,7 +271,7 @@
   .footer-hpn .menu-section {
     padding-left: 80px;
   }
-}
+} */
 @media only screen and (max-width: 1024px) {
   .footer-hpn .row {
     flex-wrap: wrap;
