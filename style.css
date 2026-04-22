@@ -68,9 +68,12 @@ body a {
   font-weight: 500;
 }
 body .container {
-  width: 100%;
+  /* width: 100%;
   max-width: 100%;
-  padding: 0;
+  padding: 0; */
+      width: 100% !important;
+    margin: 0px auto;
+    max-width: 1872px;
 }
 a:hover,
 a:focus,

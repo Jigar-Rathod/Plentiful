@@ -483,12 +483,24 @@ p {
 
 .four-boxes-hpn .four-boxes-left .box-img,
 .four-boxes-hpn.vertical-box .four-boxes-left .vertical-img {
-  display: none;
+  /* display: none; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .four-boxes-hpn .four-boxes-left .box-img.active,
 .four-boxes-hpn.vertical-box .four-boxes-left .vertical-img.active {
-  display: block;
+  /* display: block; */
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
 }
 
 .four-boxes-hpn .four-boxes-right {

@@ -4,7 +4,7 @@
   padding-inline: 24px;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 999;
 }
 
 .header-hpn .row {
@@ -162,6 +162,7 @@
   visibility: hidden;
   transform: translateY(20px);
   transition: all 0.3s ease;
+  z-index: 999;
 }
 
 /* Show mega menu */
@@ -608,11 +609,11 @@
 }
 /*--- tabing-section-hpn ---*/
 
-@media only screen and (min-width: 1920px) {
+/* @media only screen and (min-width: 1920px) {
   .header-hpn {
     padding-inline: 0px;
   }
-}
+} */
 
 @media only screen and (min-width: 1399px) {
   .tabing-section-hpn .tab-content .tab-inner {
