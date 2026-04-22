@@ -136,7 +136,7 @@
 
 .getting-section-hpn .getting-right h2 {
   padding-bottom: 6px;
-  color: var(--fill-inverse-strong);
+  color: var(--text-inverse-strong);
 }
 .getting-section-hpn .getting-right p {
   color: var(--text-inverse-weak);
@@ -148,9 +148,9 @@
 .getting-section-hpn .getting-right .nav-tabs > li.active > a:hover {
   background-color: transparent;
   border: none;
-  color: var(--fill-inverse-strong);
+  color: var(--text-inverse-strong);
   opacity: 1;
-  border-bottom: 1px solid var(--fill-inverse-strong);
+  border-bottom: 1px solid var(--text-inverse-strong);
   padding: 0 0 9px 0;
 }
 
@@ -164,7 +164,7 @@
   -ms-border-radius: 0;
   -o-border-radius: 0;
   opacity: 0.5;
-  color: var(--fill-inverse-strong);
+  color: var(--text-inverse-strong);
   padding: 0;
   background-color: transparent;
   font-size: 16px;
@@ -236,7 +236,7 @@
 }
 
 .getting-section-hpn .steps-section .step h4 {
-  color: var(--fill-inverse-strong);
+  color: var(--text-inverse-strong);
   letter-spacing: 3%;
 }
 

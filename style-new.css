@@ -1018,36 +1018,6 @@ textarea {
   position: relative;
 }
 
-.shop-before-control {
-  margin-bottom: 108px;
-  border: none;
-  position: relative;
-}
-
-.shop-before-control .product-filter {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.shop-before-control .woocommerce-ordering-wrapper {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.shop-before-control .woocommerce-ordering-wrapper::before {
-  content: "Sort by";
-  position: absolute;
-  left: -65px;
-  top: 10px;
-  color: var(--text-weak);
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: 2%;
-  font-weight: 500;
-}
-
 .site-main .ovic-shop-filter .inner-content {
   background: transparent;
   border: none;
@@ -1283,12 +1253,6 @@ textarea {
     /* margin-left: -19px;
     margin-right: -15px; */
   }
-  .shop-before-control .woocommerce-ordering-wrapper {
-    right: 20px;
-  }
-  .shop-before-control .product-filter {
-    left: 20px;
-  }
   .action-section-hpn .row.pt48 {
     padding-top: 32px;
   }
@@ -1329,24 +1293,6 @@ textarea {
   .action-section-hpn .moblie-view {
     display: block;
     margin-block: 32px 72px;
-  }
-  .shop-before-control {
-    margin-bottom: 0;
-    border: none;
-    position: relative;
-    display: inline;
-    align-items: center;
-    margin-left: 0;
-  }
-  .shop-before-control .product-filter {
-    position: relative;
-    float: left;
-    left: 0;
-  }
-  .shop-before-control .woocommerce-ordering-wrapper {
-    position: relative;
-    float: right;
-    right: 0;
   }
   .four-boxes-hpn.mb72 {
     margin-bottom: 0;
@@ -1403,19 +1349,6 @@ textarea {
   .action-section-hpn .action-section-inner {
     width: 47%;
     flex: 0 0 47%;
-  }
-  .shop-before-control .product-filter {
-    flex: 0 0 90%;
-    width: 90%;
-  }
-  .shop-before-control .woocommerce-ordering-wrapper {
-    flex: 0 0 90%;
-    width: 90%;
-    left: 20px;
-    margin-top: 30px;
-  }
-  .shop-before-control .woocommerce-ordering select {
-    width: 100%;
   }
 }
 
