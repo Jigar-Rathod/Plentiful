@@ -968,6 +968,7 @@
   font-weight: 500;
   color: #000;
   padding: 0;
+  text-align: left;
 }
 .fitermodal .modal-body {
   padding: 19px 36px 0;
@@ -984,6 +985,7 @@
   margin: 0 0 12px;
   padding: 0;
   display: block;
+  text-align: left;
 }
 .fitermodal .modal-body ul {
   display: flex;
@@ -991,6 +993,7 @@
   gap: 10px 9px;
   padding-bottom: 22px;
   border-bottom: 1px solid #d9d9d9;
+  height: auto !important;
 }
 .fitermodal .modal-body ul li {
   display: flex;
@@ -1014,19 +1017,17 @@
   -o-border-radius: 50px;
 }
 .fitermodal .modal-body ul li img {
-  max-width: 25px;
-  max-height: 25px;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   margin-right: 8px;
+  aspect-ratio: 25 / 25;
+  width: auto;
+  height: auto;
 }
 .fitermodal .modal-body ul li a {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-}
-.fitermodal .widget:not(:last-child) {
-  margin-bottom: 29px;
 }
 .price_slider_histogram {
   gap: 0 7px !important;
@@ -1148,19 +1149,42 @@
   padding: 0;
 }
 .fitermodal .modal-footerbtn .btn {
-  background-color: #fdf24f !important;
-  border-radius: 50px;
-  color: #212121;
-  padding: 8px 20px;
+  text-transform: capitalize;
+  border: 1px solid var(--stroke-inverse-weak);
+  color: var(--text-inverse-strong);
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 16%;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  background-color: var(--text-strong);
   min-width: 203px;
   min-height: 45px;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 24px;
-  letter-spacing: 0;
-  border: 1px solid #212121;
-  transition: 0.2s ease-in-out;
-  text-transform: capitalize;
+}
+.fitermodal .modal-footerbtn .btn:hover {
+  border: 1px solid var(--text-strong);
+  background-color: var(--stroke-inverse-weak);
+  text-decoration: none;
+  color: var(--text-strong);
+}
+.fitermodal .ui-slider-range.ui-corner-all.ui-widget-header {
+  height: 3px !important;
+  background-color: #7ab19e !important;
+}
+.fitermodal span.ui-slider-handle.ui-corner-all.ui-state-default {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 0.5px 0.5px 2px 1px rgba(0, 0, 0, 0.32);
+  top: -10px;
 }
 @media only screen and (min-width: 1920px) {
   /* .header-hpn {
