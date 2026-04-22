@@ -786,6 +786,7 @@
   width: 100%;
   border: 1px solid var(--stroke-inverse-weak) !important;
   background: inherit !important;
+  height: 50px !important;
 }
 
 .footer-hpn {
@@ -1230,9 +1231,10 @@ body.single-product .summary.entry-summary .cart button,
 .video_bg_quote_text_row .video_content_col .common_button_class a,
 .about_banner_row .banner-text .common_button_class a,
 body .wpcf7-form .wpcf7-submit,
-body.single-product
-  .summary.entry-summary
-  .gift_card_add_to_cart_button.button {
+body.single-product .summary.entry-summary .gift_card_add_to_cart_button.button,
+body .woocommerce-form-login.login .form-row .button,
+.store-form-nav-button-submit,
+body.dokan-dashboard .dokan-btn {
   border: 1px solid var(--stroke-inverse-weak) !important;
   color: var(--text-inverse-strong) !important;
   font-size: 14px !important;
@@ -1265,11 +1267,23 @@ body.single-product .summary.entry-summary .cart button:hover,
 body .wpcf7-form .wpcf7-submit:hover,
 body.single-product
   .summary.entry-summary
-  .gift_card_add_to_cart_button.button:hover {
+  .gift_card_add_to_cart_button.button:hover,
+body .woocommerce-form-login.login .form-row .button:hover,
+.store-form-nav-button-submit:hover,
+body.dokan-dashboard .dokan-btn:hover {
   border: 1px solid var(--text-strong) !important;
   background-color: var(--stroke-inverse-weak) !important;
   text-decoration: none !important;
   color: var(--text-strong) !important;
+}
+.logged-in
+  .header-hpn
+  .search-section
+  .block-userlink.ocolus-dropdown
+  ul
+  li.menu-item {
+  display: block;
+  width: 100%;
 }
 @media only screen and (min-width: 1920px) {
   /* .header-hpn {
@@ -1564,7 +1578,7 @@ body.single-product
   }
   .best-section-hpn .mc4wp-form-fields .button {
     position: relative;
-    width: 100%;
+    width: 100% !important;
     margin-top: 12px;
   }
   .best-section-hpn .mc4wp-form-fields {
