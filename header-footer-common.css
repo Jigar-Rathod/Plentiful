@@ -1233,21 +1233,22 @@ body .wpcf7-form .wpcf7-submit,
 body.single-product
   .summary.entry-summary
   .gift_card_add_to_cart_button.button {
-  border: 1px solid var(--stroke-inverse-weak);
-  color: var(--text-inverse-strong);
-  font-size: 12px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 16%;
-  text-transform: uppercase;
-  padding: 12px 20px;
-  display: inline-block;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  background-color: var(--text-strong);
+  border: 1px solid var(--stroke-inverse-weak) !important;
+  color: var(--text-inverse-strong) !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  font-weight: 500 !important;
+  letter-spacing: 16% !important;
+  text-transform: uppercase !important;
+  padding: 12px 20px !important;
+  display: inline-block !important;
+  transition: all0.5s ease-in-out !important;
+  -webkit-transition: all0.5s ease-in-out !important;
+  -moz-transition: all0.5s ease-in-out !important;
+  -ms-transition: all0.5s ease-in-out !important;
+  -o-transition: all0.5s ease-in-out !important;
+  background-color: var(--text-strong) !important;
+  -webkit-transition: all0.5sease-in-ou !important;
 }
 body .woocommerce-tabs .custom-reviews-section .woocommerce-Reviews .button {
   margin: 40px auto 0;
@@ -1265,10 +1266,10 @@ body .wpcf7-form .wpcf7-submit:hover,
 body.single-product
   .summary.entry-summary
   .gift_card_add_to_cart_button.button:hover {
-  border: 1px solid var(--text-strong);
-  background-color: var(--stroke-inverse-weak);
-  text-decoration: none;
-  color: var(--text-strong);
+  border: 1px solid var(--text-strong) !important;
+  background-color: var(--stroke-inverse-weak) !important;
+  text-decoration: none !important;
+  color: var(--text-strong) !important;
 }
 @media only screen and (min-width: 1920px) {
   /* .header-hpn {
