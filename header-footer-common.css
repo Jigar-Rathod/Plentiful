@@ -1228,7 +1228,8 @@
 body .woocommerce-tabs .custom-reviews-section .woocommerce-Reviews .button,
 body.single-product .summary.entry-summary .cart button,
 .video_bg_quote_text_row .video_content_col .common_button_class a,
-.about_banner_row .banner-text .common_button_class a {
+.about_banner_row .banner-text .common_button_class a,
+body .wpcf7-form .wpcf7-submit {
   border: 1px solid var(--stroke-inverse-weak);
   color: var(--text-inverse-strong);
   font-size: 12px;
@@ -1256,7 +1257,8 @@ body
   .button:hover,
 body.single-product .summary.entry-summary .cart button:hover,
 .video_bg_quote_text_row .video_content_col .common_button_class a:hover,
-.about_banner_row .banner-text .common_button_class a:hover {
+.about_banner_row .banner-text .common_button_class a:hover,
+body .wpcf7-form .wpcf7-submit:hover {
   border: 1px solid var(--text-strong);
   background-color: var(--stroke-inverse-weak);
   text-decoration: none;
