@@ -189,16 +189,6 @@ body a {
   text-decoration: none;
 }
 
-:root {
-  --text-strong: rgba(20, 25, 31, 1);
-  --text-weak: rgba(20, 25, 31, 0.64);
-  --text-inverse-strong: rgba(255, 255, 255, 1);
-  --text-inverse-weak: rgba(255, 255, 255, 0.72);
-  --stroke-weak: rgba(20, 25, 31, 0.2);
-  --stroke-inverse-weak: rgba(255, 255, 255, 0.24);
-  --stroke-disabled: rgba(20, 25, 31, 0.12);
-}
-
 .container {
   width: 100% !important;
   margin: 0px auto;
@@ -230,74 +220,6 @@ textarea:-ms-input-placeholder {
 textarea:-moz-placeholder {
   color: var(--text-strong);
   opacity: 32%;
-}
-
-.weakbtn,
-.weakblack {
-  border: 1px solid var(--stroke-inverse-weak);
-  background-color: var(--stroke-inverse-weak);
-  color: var(--text-inverse-strong);
-  font-size: 12px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 16%;
-  text-transform: uppercase;
-  padding: 12px 20px;
-  display: inline-block;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-}
-
-.weakbtn svg,
-.weakblack svg {
-  margin-left: 8px;
-}
-
-.weakbtn:hover {
-  border: 1px solid var(--text-inverse-strong);
-  background-color: var(--text-inverse-strong);
-  text-decoration: none;
-  color: var(--text-strong);
-}
-
-.weakblack:hover {
-  border: 1px solid var(--text-strong);
-  background-color: var(--stroke-inverse-weak);
-  text-decoration: none;
-  color: var(--text-strong);
-}
-
-.weakbtn:hover svg path,
-.weakblack:hover svg path {
-  color: var(--text-strong);
-  fill: var(--text-strong);
-}
-
-.weakbtn:hover svg,
-.weakblack:hover svg,
-.action-section-hpn
-  .action-section-inner
-  .action-section-inner-hide:hover
-  a
-  svg {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  fill: var(--text-strong);
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-}
-
-.weakblack {
-  background-color: var(--text-strong);
 }
 
 .mx24 {
