@@ -95,6 +95,8 @@
   color: var(--text-strong);
   font-family: "itc_avant_garde_gothic_proMd" !important;
   font-weight: 500 !important;
+  padding: 0;
+  margin: 0;
 }
 
 .stay-four-coloum-hpn .stay-four-inner-txt,
