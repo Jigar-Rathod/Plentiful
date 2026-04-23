@@ -89,6 +89,14 @@
   text-align: left;
 }
 
+.stay-four-coloum-hpn .stay-four-inner-txt a h3 {
+  font-size: clamp(14px, calc(13.6px + 0.125vw), 16px);
+  line-height: 1.5;
+  color: var(--text-strong);
+  font-family: "itc_avant_garde_gothic_proMd" !important;
+  font-weight: 500 !important;
+}
+
 .stay-four-coloum-hpn .stay-four-inner-txt,
 .products.shop-page .stay-four-inner-txt {
   margin-top: 16px;
@@ -130,6 +138,8 @@
   color: var(--text-weak);
   font-size: 14px;
   line-height: 1.5;
+  font-family: "itc_avant_garde_gothic_proMd" !important;
+  font-weight: 500;
 }
 
 .stay-four-coloum-hpn .price-cat,
