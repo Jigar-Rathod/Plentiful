@@ -1008,7 +1008,7 @@ body .shop-before-control:before,
 body .shop-before-control:after {
   display: none;
 }
-body .shop-before-control .button-filter {
+/* body .shop-before-control .button-filter {
   border-radius: 25px !important;
   background-color: #fdf24f !important;
   font-style: normal !important;
@@ -1025,7 +1025,7 @@ body .shop-before-control .button-filter {
   display: flex;
   align-items: center;
   gap: 0 15px;
-}
+} */
 body .shop-before-control > * {
   background-color: #fff0;
   border: none;
@@ -1072,10 +1072,12 @@ body .shop-before-control .woocommerce-ordering select {
   height: 50px;
   border: 1px solid #212121;
   border-radius: 25px !important;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 1.5;
   color: #212121;
   font-family: "itc_avant_garde_gothic_proMd" !important;
   background-image: url(../img/expand_down.png);
+      border-radius: 0 !important;
 }
 body .widget_layered_nav_filters ul li.chosen {
   padding: 0 10px 0 0;

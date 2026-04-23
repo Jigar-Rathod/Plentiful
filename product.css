@@ -22,6 +22,7 @@
   letter-spacing: 16%;
   text-transform: uppercase;
   color: var(--text-strong);
+  border: 1px solid var(--stroke-weak);
 }
 .stay-four-coloum-hpn .button-filter img {
   aspect-ratio: 13 / 13;
@@ -231,7 +232,7 @@
 }
 
 .shop-before-control {
-  margin-bottom: 108px;
+  /* margin-bottom: 108px; */
   border: none;
   position: relative;
 }
