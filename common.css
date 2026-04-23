@@ -1890,6 +1890,7 @@ body .woocommerce-tabs {
   align-items: flex-start;
   gap: 0 57px;
   flex-wrap: wrap;
+  margin-bottom: 72px;
 }
 
 .woocommerce-tabs > ul > li button {
