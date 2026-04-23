@@ -281,7 +281,35 @@ body .shop-before-control .woocommerce-ordering select {
   border: 1px solid var(--stroke-weak);
 }
 
-/* stay-four-section-end */
+.woocommerce-pagination a.page-numbers,
+.woocommerce-pagination span.page-numbers.current {
+  line-height: 42px !important;
+  min-width: 42px !important;
+  margin: 0 8px 0 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0;
+}
+.woocommerce-pagination > ul.page-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.woocommerce-pagination > ul.page-numbers li a {
+  margin: 0 8px 0 0;
+}
+.woocommerce-pagination a.next.page-numbers {
+  line-height: 42px !important;
+  min-width: 42px !important;
+  margin: 0;
+}
+
+body .pagination-nav ul li .page-numbers:hover {
+  background-color: var(--text-strong);
+  color: var(--fill-inverse-strong);
+}
 
 @media only screen and (min-width: 1920px) {
   .stay-four-coloum-hpn .row {

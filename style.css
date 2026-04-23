@@ -6584,7 +6584,7 @@ body.single-product .related.products .slick-list .slick-track {
 body.single-product .related.products .slick-list .slick-track .slick-slide {
   padding: 0 10px;
 }
-body .pagination-nav ul li .page-numbers {
+/* body .pagination-nav ul li .page-numbers {
   border: 1px solid #212121;
   padding: 10px 20px !important;
   height: auto !important;
@@ -6595,12 +6595,12 @@ body .pagination-nav ul li .page-numbers {
   display: flex;
   justify-content: center;
   width: 51px;
-}
-body .pagination-nav .page-numbers.current {
+} */
+/* body .pagination-nav .page-numbers.current {
   background: #fdf24f;
   color: #212121;
   font-family: "itc_avant_garde_gothic_proMd" !important;
-}
+} */
 body .pagination-nav ul li .page-numbers:hover {
   background: #fdf24f;
   color: #212121;
