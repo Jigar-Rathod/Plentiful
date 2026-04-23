@@ -2367,7 +2367,7 @@ body .ovic-shop-filter .ovic-responsive-filter .chosen:not(:last-child) {
 }
 
 .grecaptcha-badge {
-  bottom: 80px !important;
+  bottom: 100px !important;
   z-index: 99 !important;
 }
 
