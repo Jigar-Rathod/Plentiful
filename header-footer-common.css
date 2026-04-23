@@ -1267,7 +1267,7 @@ body.dokan-dashboard .dokan-banner .dokan-btn,
 }
 body .woocommerce-tabs .custom-reviews-section .woocommerce-Reviews .button {
   margin: 40px auto 0;
-  display: table;
+  display: table !important;
 }
 body
   .woocommerce-tabs
@@ -1338,10 +1338,17 @@ button.dokan-v-start-btn {
 .terms-of-Service.common-page,
 .woocommerce-wishlist article,
 footer.footer,
-body.single-product .single-product-wrapper,
-body .product {
+body.single-product .single-product-wrapper {
   width: 100% !important;
   margin: 0px auto;
+  /* padding: 0; */
+  max-width: 1872px;
+}
+body.single-product .custom_more_ecperiences,
+body .woocommerce-tabs {
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
   /* padding: 0; */
   max-width: 1872px;
 }
