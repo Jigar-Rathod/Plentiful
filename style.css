@@ -1239,8 +1239,8 @@ body .woocommerce .woocommerce-MyAccount-content .woocommerce-orders-table {
 }
 .woocommerce-button,
 .woocommerce-Button {
-  border-radius: 25px !important;
-  background-color: #fdf24f !important;
+  border-radius: 0px !important;
+  /* background-color: #fdf24f !important; */
   font-size: 18px !important;
   font-style: normal !important;
   font-weight: 500 !important;
@@ -1258,10 +1258,10 @@ body .woocommerce .woocommerce-MyAccount-content .woocommerce-orders-table {
   letter-spacing: 0;
   max-width: inherit !important;
   width: auto !important;
-  -webkit-border-radius: 25px !important;
-  -moz-border-radius: 25px !important;
-  -ms-border-radius: 25px !important;
-  -o-border-radius: 25px !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  -ms-border-radius: 0px !important;
+  -o-border-radius: 0px !important;
 }
 .woocommerce-button:hover,
 .woocommerce-Button:hover {

@@ -786,7 +786,7 @@
   width: 100%;
   border: 1px solid var(--stroke-inverse-weak) !important;
   background: inherit !important;
-  height: 50px !important;
+  height: 53px !important;
 }
 
 .footer-hpn {
@@ -1242,7 +1242,7 @@ body .dokan-btn-theme,
 body.dokan-dashboard .dokan-form-group .dokan-btn,
 body.dokan-dashboard .dokan-banner .dokan-btn,
 .acf-input .acf-image-uploader .acf-button {
-  border: 1px solid var(--stroke-inverse-weak) !important;
+  border: 1px solid var(--text-strong) !important;
   color: var(--text-inverse-strong) !important;
   font-size: 14px !important;
   line-height: 1.5 !important;
@@ -1250,7 +1250,7 @@ body.dokan-dashboard .dokan-banner .dokan-btn,
   letter-spacing: 16% !important;
   text-transform: uppercase !important;
   padding: 12px 20px !important;
-  display: inline-block !important;
+  /* display: inline-block !important; */
   transition: all0.5s ease-in-out !important;
   -webkit-transition: all0.5s ease-in-out !important;
   -moz-transition: all0.5s ease-in-out !important;
@@ -1263,6 +1263,7 @@ body.dokan-dashboard .dokan-banner .dokan-btn,
   -moz-border-radius: 0px !important;
   -ms-border-radius: 0px !important;
   -o-border-radius: 0px !important;
+  background-image: none !important;
 }
 body .woocommerce-tabs .custom-reviews-section .woocommerce-Reviews .button {
   margin: 40px auto 0;
@@ -1316,6 +1317,33 @@ button.dokan-v-start-btn {
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   -o-border-radius: 0px;
+}
+
+.site-content.container {
+  padding: 0 !important;
+  width: 100% !important;
+  margin: 0px auto;
+  max-width: 1872px;
+}
+
+#dokan-store-listing-filter-wrap,
+.dokan-dashboard .container .content-area,
+.post-info.wrapper-main-content,
+.privacy-policy.common-page,
+.purchase-bg .purchase-inner,
+.single-product .product-page .custom_more_ecperiences,
+.single-product .product-page .related,
+.single-product .product-page .single-product-wrapper,
+.single-product .product-page .woocommerce-tabs,
+.terms-of-Service.common-page,
+.woocommerce-wishlist article,
+footer.footer,
+body.single-product .single-product-wrapper,
+body .product {
+  width: 100% !important;
+  margin: 0px auto;
+  /* padding: 0; */
+  max-width: 1872px;
 }
 @media only screen and (min-width: 1920px) {
   /* .header-hpn {

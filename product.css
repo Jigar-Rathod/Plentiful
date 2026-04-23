@@ -42,7 +42,7 @@
 .stay-four-coloum-hpn .active-filters-bar {
   position: absolute;
   top: 6px;
-  z-index: 9999;
+  z-index: 0;
   margin-left: 138px;
 }
 
