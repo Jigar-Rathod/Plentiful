@@ -1179,13 +1179,18 @@
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
-  background-color: var(--text-strong);
+  background-color: var(--text-strong) !important;
   min-width: 203px;
   min-height: 45px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
 }
 .fitermodal .modal-footerbtn .btn:hover {
-  border: 1px solid var(--text-strong);
-  background-color: var(--stroke-inverse-weak);
+  border: 1px solid var(--text-strong) !important;
+  background-color: var(--stroke-inverse-weak) !important;
   text-decoration: none;
   color: var(--text-strong);
 }
