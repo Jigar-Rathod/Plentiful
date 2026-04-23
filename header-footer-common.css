@@ -1234,7 +1234,14 @@ body .wpcf7-form .wpcf7-submit,
 body.single-product .summary.entry-summary .gift_card_add_to_cart_button.button,
 body .woocommerce-form-login.login .form-row .button,
 .store-form-nav-button-submit,
-body.dokan-dashboard .dokan-btn {
+body.dokan-dashboard .dokan-btn,
+body .dokan-dashboard-wrap .dokan-form-group #insert-media-button,
+body input[type="submit"].dokan-btn-theme,
+body a.dokan-btn-theme,
+body .dokan-btn-theme,
+body.dokan-dashboard .dokan-form-group .dokan-btn,
+body.dokan-dashboard .dokan-banner .dokan-btn,
+.acf-input .acf-image-uploader .acf-button {
   border: 1px solid var(--stroke-inverse-weak) !important;
   color: var(--text-inverse-strong) !important;
   font-size: 14px !important;
@@ -1251,6 +1258,11 @@ body.dokan-dashboard .dokan-btn {
   -o-transition: all0.5s ease-in-out !important;
   background-color: var(--text-strong) !important;
   -webkit-transition: all0.5sease-in-ou !important;
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  -ms-border-radius: 0px !important;
+  -o-border-radius: 0px !important;
 }
 body .woocommerce-tabs .custom-reviews-section .woocommerce-Reviews .button {
   margin: 40px auto 0;
@@ -1270,7 +1282,14 @@ body.single-product
   .gift_card_add_to_cart_button.button:hover,
 body .woocommerce-form-login.login .form-row .button:hover,
 .store-form-nav-button-submit:hover,
-body.dokan-dashboard .dokan-btn:hover {
+body.dokan-dashboard .dokan-btn:hover,
+body .dokan-dashboard-wrap .dokan-form-group #insert-media-button:hover,
+body input[type="submit"].dokan-btn-theme:hover,
+body a.dokan-btn-theme,
+body .dokan-btn-theme:hover,
+body.dokan-dashboard .dokan-form-group .dokan-btn:hover,
+body.dokan-dashboard .dokan-banner .dokan-btn:hover,
+.acf-input .acf-image-uploader .acf-button:hover {
   border: 1px solid var(--text-strong) !important;
   background-color: var(--stroke-inverse-weak) !important;
   text-decoration: none !important;
@@ -1284,6 +1303,19 @@ body.dokan-dashboard .dokan-btn:hover {
   li.menu-item {
   display: block;
   width: 100%;
+}
+
+button.dokan-v-start-btn {
+  margin-bottom: 0 !important;
+}
+
+.product-filter .selected {
+  background: #eee;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
 }
 @media only screen and (min-width: 1920px) {
   /* .header-hpn {
