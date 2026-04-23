@@ -163,6 +163,7 @@
   justify-content: center;
   white-space: nowrap;
   gap: 0 5px;
+  font-family: "itc_avant_garde_gothic_proMd" !important;
 }
 
 .stay-four-coloum-hpn .price-cat span.woocommerce-Price-amount.amount,
@@ -183,6 +184,7 @@
   span.woocommerce-Price-amount.amount.amount:first-child {
   padding-left: 0;
   padding-right: 0;
+  font-family: "itc_avant_garde_gothic_proMd" !important;
 }
 
 .stay-four-coloum-hpn .price-cat span svg,

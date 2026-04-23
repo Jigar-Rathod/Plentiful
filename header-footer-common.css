@@ -704,6 +704,7 @@
 .best-section-hpn p {
   color: var(--text-inverse-weak);
   padding-bottom: 32px;
+  font-family: "itc_avant_garde_gothic_proMd" !important;
 }
 /* .best-section-hpn .navbar-form {
   max-width: 560px;
