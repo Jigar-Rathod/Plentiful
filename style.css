@@ -8801,12 +8801,14 @@ body
   li
   a[title="Visit Store"]
   span:before {
-  content: "";
-  background-image: url(../img/store.png);
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  margin: -9px 0 0 -11px;
+      content: "";
+      background-image: url(../img/store.png);
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+      margin: -9px 0 0 -11px;
+      filter: invert(1);
+      -webkit-filter: invert(1);
 }
 body
   #dokan-seller-listing-wrap

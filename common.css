@@ -2709,7 +2709,11 @@ body
   .store-header
   .store-banner
   img {
-  border-radius: 24px !important;
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  -ms-border-radius: 0px !important;
+  -o-border-radius: 0px !important;
 }
 
 .fitermodal
