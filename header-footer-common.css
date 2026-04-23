@@ -1352,6 +1352,15 @@ body .woocommerce-tabs {
   /* padding: 0; */
   max-width: 1872px;
 }
+
+body
+  .woocommerce-tabs
+  > ul
+  > li.active:last-child
+  .woocommerce-Tabs-panel
+  ol[start="10"] {
+  margin-left: 8px;
+}
 @media only screen and (min-width: 1920px) {
   /* .header-hpn {
     padding-inline: 0px;

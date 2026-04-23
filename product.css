@@ -109,9 +109,21 @@
 }
 
 .stay-four-coloum-hpn .stay-four-inner-txt ul,
-.products.shop-page .stay-four-inner-txt ul,
-.stay-four-coloum-hpn .stay-four-inner-txt ul li,
-.products.shop-page .stay-four-inner-txt ul li {
+.products.shop-page .stay-four-inner-txt ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.stay-four-coloum-hpn
+  .stay-four-inner-txt
+  ul
+  li
+  .products.shop-page
+  .stay-four-inner-txt
+  ul
+  li {
   display: flex;
   flex-wrap: wrap;
 }
