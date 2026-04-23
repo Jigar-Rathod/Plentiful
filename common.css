@@ -1844,7 +1844,7 @@ footer.footer {
   flex: 0 0 50%;
 }
 
-.fitermodal .modal-footerbtn .btn {
+/* .fitermodal .modal-footerbtn .btn {
   background-color: #fdf24f !important;
   border-radius: 50px;
   color: #212121;
@@ -1864,7 +1864,7 @@ footer.footer {
 .fitermodal .modal-footerbtn .btn:hover {
   background-color: #212121 !important;
   color: #fff !important;
-}
+} */
 
 .fitermodal .grouped-product-categories .category-group h3 {
   font-size: 18px;
