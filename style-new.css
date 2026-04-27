@@ -297,6 +297,7 @@ p {
   aspect-ratio: 1872/680;
   object-fit: cover;
   height: calc(100vh - 150px);
+  max-height: 988px;
 }
 
 .Home-banner-hpn {
