@@ -278,7 +278,7 @@ body .shop-before-control .woocommerce-ordering select {
   color: var(--text-strong);
   height: auto;
   width: auto;
-  border: 1px solid var(--stroke-weak);
+  border: 1px solid var(--stroke-weak) !important;
 }
 
 .woocommerce-pagination a.page-numbers,
@@ -409,6 +409,7 @@ body .pagination-nav ul li .page-numbers:hover {
     left: -17px;
     top: -32px;
     white-space: nowrap;
+    font-family: "itc_avant_garde_gothic_proMd" !important;
   }
   .shop-before-control .woocommerce-ordering-wrapper .woocommerce-ordering {
     /* width: 100%; */
