@@ -240,6 +240,7 @@
   font-size: clamp(13px, calc(12.8px + 0.063vw), 14px);
   line-height: 1.5;
   color: var(--text-weak);
+  margin: 0;
 }
 .footer-hpn .logo-section img {
   display: block;
