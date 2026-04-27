@@ -385,6 +385,9 @@ body .pagination-nav ul li .page-numbers:hover {
     margin-top: 0;
     /* margin-right: 20px; */
   }
+  .product-type-gift-card {
+    padding-inline: 20px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
