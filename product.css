@@ -307,8 +307,8 @@ body .shop-before-control .woocommerce-ordering select {
 }
 
 body .pagination-nav ul li .page-numbers:hover {
-  background-color: var(--text-strong);
-  color: var(--fill-inverse-strong);
+  background-color: var(--text-strong) !important;
+  color: var(--fill-inverse-strong) !important;
 }
 
 @media only screen and (min-width: 1920px) {
@@ -381,10 +381,10 @@ body .pagination-nav ul li .page-numbers:hover {
     margin-top: -115px;
     margin-left: 20px;
   }
-.tax-product_cat .shop-before-control .woocommerce-ordering-wrapper {
+  .tax-product_cat .shop-before-control .woocommerce-ordering-wrapper {
     margin-top: 0;
     /* margin-right: 20px; */
-}
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -427,7 +427,6 @@ body .pagination-nav ul li .page-numbers:hover {
   .tax-product_cat .shop-before-control .woocommerce-ordering-wrapper::before {
     left: -8px;
   }
-
 }
 
 @media only screen and (max-width: 480px) {
