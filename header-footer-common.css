@@ -295,10 +295,10 @@
 }
 
 .header-hpn .tabing-section-hpn .tabing-btn ul li a:hover {
-  border: 1px solid var(--text-strong);
-  background-color: var(--text-strong);
+  border: 1px solid var(--text-strong) !important;
+  background-color: var(--text-strong) !important;
   text-decoration: none;
-  color: var(--text-inverse-strong);
+  color: var(--text-inverse-strong) !important;
 }
 
 .header-hpn .menu-section-header .header-menu-list > ul li a:hover::before {
@@ -789,6 +789,7 @@
   position: absolute;
   right: 0;
   border-radius: 0 !important;
+  height: 100%;
 }
 
 .best-section-hpn .mc4wp-form-fields input[type="email"] {
