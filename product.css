@@ -154,8 +154,8 @@
   gap: 0 10px;
 }
 
-.stay-four-coloum-hpn .price-cat span,
-.products.shop-page .stay-four-inner .price-cat span {
+.stay-four-coloum-hpn .price-cat > span,
+.products.shop-page .stay-four-inner .price-cat > span {
   font-size: 14px;
   line-height: 1.5;
   font-weight: 500;
