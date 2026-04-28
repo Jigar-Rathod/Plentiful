@@ -1395,19 +1395,24 @@ button.dokan-v-start-btn {
 .single-product .product-page .woocommerce-tabs,
 .terms-of-Service.common-page,
 .woocommerce-wishlist article,
-footer.footer,
-body.single-product .single-product-wrapper {
+footer.footer {
   width: 100% !important;
   margin: 0px auto;
   /* padding: 0; */
   max-width: 1872px;
 }
+body.single-product .single-product-wrapper,
 body.single-product .custom_more_ecperiences,
 body .woocommerce-tabs {
-  width: 100% !important;
+  width: calc(100% - 24px) !important;
   margin-left: auto;
   margin-right: auto;
   /* padding: 0; */
+  max-width: 1872px;
+}
+body.single-product .custom_more_ecperiences .row {
+  width: calc(100% + 15px);
+  margin: 0px auto;
   max-width: 1872px;
 }
 
