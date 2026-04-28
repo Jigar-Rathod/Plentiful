@@ -32,9 +32,9 @@
 
 .stay-four-coloum-hpn .active-filters-bar {
   position: absolute;
-  top: 6px;
+  top: -80px;
   z-index: 0;
-  margin-left: 138px;
+  margin-left: 130px;
 }
 
 .stay-four-coloum-hpn .active-filters-bar ul {
@@ -42,6 +42,8 @@
   align-items: center;
   justify-content: flex-start;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .stay-four-coloum-hpn .active-filters-bar ul li {
@@ -337,7 +339,7 @@ body .pagination-nav ul li .page-numbers:hover {
     padding-inline: 20px;
   }
   .stay-four-coloum-hpn .active-filters-bar {
-    margin-left: 110px;
+    margin-left: 140px;
   }
   .shop-before-control .woocommerce-ordering-wrapper {
     right: 20px;
