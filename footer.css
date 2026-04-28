@@ -237,10 +237,10 @@
   margin-right: 20px;
 }
 .footer-hpn .menu-two-colum p {
-  font-size: clamp(13px, calc(12.8px + 0.063vw), 14px);
-  line-height: 1.5;
+  font-size: clamp(13px, calc(12.8px + 0.063vw), 14px) !important;
+  line-height: 1.5 !important;
   color: var(--text-weak);
-  margin: 0;
+  margin: 0 !important;
 }
 .footer-hpn .logo-section img {
   display: block;
