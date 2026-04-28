@@ -76,6 +76,42 @@
   background-color: var(--text-strong);
 }
 
+.mx24 {
+  margin-inline: 24px;
+}
+
+.mb72 {
+  margin-bottom: 72px;
+}
+
+.mt72 {
+  margin-top: 72px;
+}
+
+.mb96 {
+  margin-bottom: 96px;
+}
+
+.mb85 {
+  margin-bottom: 85px;
+}
+
+.pb72 {
+  padding-bottom: 72px;
+}
+
+.pt72 {
+  padding-top: 72px;
+}
+
+.pt48 {
+  padding-top: 48px;
+}
+
+.mt84 {
+  margin-top: 84px;
+}
+
 /*--- header-start ---*/
 .header-hpn {
   background-color: var(--text-inverse-strong);
