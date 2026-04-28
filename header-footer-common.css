@@ -1487,6 +1487,9 @@ body
 }
 
 @media only screen and (max-width: 991px) {
+  .mx24 {
+    margin-inline: 0;
+  }
   .header-hpn i.fa {
     font-size: 20px;
     width: 20px;
