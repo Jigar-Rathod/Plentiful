@@ -1415,6 +1415,9 @@ body.single-product .custom_more_ecperiences .row {
   margin: 0px auto;
   max-width: 1872px;
 }
+body .custom_more_ecperiences .custom_more_title h2 {
+  padding-bottom: 0;
+}
 
 body
   .woocommerce-tabs
