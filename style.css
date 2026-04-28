@@ -8507,6 +8507,9 @@ body.single-product .summary.entry-summary .cart .gift-cards-list button {
   width: 18% !important;
   justify-content: center;
   margin: 0 15px 0 0;
+      border: 1px solid var(--text-strong) !important;
+    background-color: transparent !important;
+    color: var(--text-strong) !important;
   /* border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -8518,7 +8521,8 @@ body.single-product
   .cart
   .gift-cards-list
   button.ywgc-predefined-amount-button.selected_button {
-  color: #212121;
+    background-color: #212121 !important;
+    color: var(--text-inverse-strong) !important;
 }
 body.single-product
   .summary.entry-summary
@@ -8528,8 +8532,8 @@ body.single-product
   background-color: #fdf24f;
 }
 body.single-product .summary.entry-summary .cart .gift-cards-list button:hover {
-  background-color: #fdf24f;
-  color: #212121;
+    background-color: var(--text-strong) !important;
+    color: var(--text-inverse-strong) !important;
 }
 body .gift-cards-list .ywgc_select_amount_title {
   width: 100% !important;
