@@ -2002,14 +2002,15 @@ body .woocommerce-tabs .custom-reviews-section .woocommerce-Reviews .button {
   display: table;
 }
 
-body
+/* body
   .woocommerce-tabs
   .custom-reviews-section
   .woocommerce-Reviews
   .button:hover
   img {
   filter: invert(1);
-}
+  -webkit-filter: invert(1);
+} */
 
 body .woocommerce-tabs > ul > li > a {
   background-color: transparent !important;
