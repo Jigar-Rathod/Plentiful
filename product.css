@@ -318,6 +318,11 @@ body .pagination-nav ul li .page-numbers:hover {
   margin: 0px auto;
   max-width: 1872px;
 }
+
+.dokan-profile-frame-wrapper,
+#store-tabs-content {
+  margin-inline: 24px;
+}
 @media only screen and (min-width: 1920px) {
   .stay-four-coloum-hpn .row {
     margin-inline: 0;
@@ -351,6 +356,10 @@ body .pagination-nav ul li .page-numbers:hover {
   }
   .shop-before-control .product-filter {
     left: 20px;
+  }
+  .dokan-profile-frame-wrapper,
+  #store-tabs-content {
+    margin-inline: 20px;
   }
 }
 @media only screen and (max-width: 768px) {

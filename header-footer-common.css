@@ -1295,11 +1295,11 @@ body .woocommerce-form-login.login .form-row .button,
 body.dokan-dashboard .dokan-btn,
 body .dokan-dashboard-wrap .dokan-form-group #insert-media-button,
 body input[type="submit"].dokan-btn-theme,
-body a.dokan-btn-theme,
-body .dokan-btn-theme,
 body.dokan-dashboard .dokan-form-group .dokan-btn,
 body.dokan-dashboard .dokan-banner .dokan-btn,
-.acf-input .acf-image-uploader .acf-button {
+.acf-input .acf-image-uploader .acf-button,
+body .dokan-btn-theme,
+body a.dokan-btn-theme {
   border: 1px solid var(--text-strong) !important;
   color: var(--text-inverse-strong) !important;
   font-size: 14px !important;
@@ -1354,6 +1354,12 @@ body.dokan-dashboard .dokan-banner .dokan-btn:hover,
   text-decoration: none !important;
   color: var(--text-strong) !important;
 }
+
+body .dokan-btn-theme,
+body a.dokan-btn-theme {
+  color: var(--text-strong);
+}
+
 .logged-in
   .header-hpn
   .search-section
