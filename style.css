@@ -5285,15 +5285,19 @@ body .price-rating-row .price span:nth-child(1) {
   height: 450px;
   width: 100%;
   overflow: hidden;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-top: 45px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-top: 48px;
 }
 .gallery_main_div .main_row .comman_galler_item img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  border-radius: 24px;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
 }
 .gallery_main_div .main_row .img_div:hover a:before {
   content: "";

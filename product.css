@@ -313,6 +313,11 @@ body .pagination-nav ul li .page-numbers:hover {
   color: var(--fill-inverse-strong) !important;
 }
 
+.store-page-wrap {
+  width: 100%;
+  margin: 0px auto;
+  max-width: 1872px;
+}
 @media only screen and (min-width: 1920px) {
   .stay-four-coloum-hpn .row {
     margin-inline: 0;
