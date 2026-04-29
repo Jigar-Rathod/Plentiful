@@ -327,6 +327,9 @@ body .pagination-nav ul li .page-numbers:hover {
   .stay-four-coloum-hpn .row {
     margin-inline: 0;
   }
+  body .page-header.banner_inner {
+    margin-inline: 0;
+  }
 }
 @media only screen and (max-width: 991px) {
   .container {
