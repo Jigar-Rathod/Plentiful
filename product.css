@@ -361,6 +361,18 @@ body .pagination-nav ul li .page-numbers:hover {
   #store-tabs-content {
     margin-inline: 20px;
   }
+  #store-tabs-content .row.products {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .vertical-tab-bx .tabcontent {
+    width: 100%;
+    padding: 0;
+  }
+  .gallery_main_div .main_row {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 @media only screen and (max-width: 768px) {
   .stay-four-coloum-hpn .active-filters-bar {

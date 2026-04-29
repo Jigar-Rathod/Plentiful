@@ -4766,12 +4766,17 @@ body
   .dokan-right
   .dokan-follow-store-button
   .dokan-follow-store-button-label-current:after {
-  content: "";
-  background-image: url(../img/User_add.png);
-  width: 24px;
-  height: 24px;
-  margin: 0 0 0 10px;
-  display: inline-block;
+      content: "";
+      background-image: url(../img/User_add.png);
+      width: 24px;
+      height: 24px;
+      margin: 0 0 0 10px;
+      display: inline-block;
+      filter: invert(1);
+      -webkit-filter: invert(1);
+}
+body .dokan-profile-frame-wrapper .profile-info-box .dokan-right .dokan-btn:hover span::after {
+    filter: invert(0);
 }
 body
   .dokan-profile-frame-wrapper
@@ -15284,7 +15289,12 @@ body
     top: -7%;
     right: 0;
     padding: 0;
+            justify-content: center;
   }
+  body .dokan-profile-frame-wrapper .profile-info-box .dokan-follow-share-btn .dokan-modules-button {
+    margin: 0;
+    padding: 0;
+}
   body .experiences_div p {
     font-size: 14px;
     padding: 0 0;
