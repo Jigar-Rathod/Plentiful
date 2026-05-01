@@ -410,7 +410,7 @@ body .block-menu-bar a .icon span {
 }
 
 .logged-in .pagination .page-numbers {
-  padding: 10px 15px !important;
+  padding: 2px 15px !important;
 }
 
 .logged-in .pagination .prev.page-numbers:before,
@@ -429,7 +429,7 @@ body .block-menu-bar a .icon span {
 }
 
 #dokan-seller-listing-wrap {
-  width: 96.5%;
+  width: 100%;
   margin: 20px auto 0;
 }
 
@@ -2641,7 +2641,17 @@ body .tooltip.in {
 #dokan-seller-listing-wrap .pagination-container.clearfix a.prev.page-numbers,
 #dokan-seller-listing-wrap .pagination-container.clearfix a.next.page-numbers {
   font-size: 0;
-  line-height: 0 !important;
+  line-height: 42px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+}
+
+body .pagination .prev.page-numbers:hover::before,
+body .pagination .next.page-numbers:hover::before {
+  filter: invert(1);
+  -webkit-filter: invert(1);
 }
 
 body
@@ -2667,9 +2677,14 @@ body
   .store-footer
   .store-data
   h2 {
-  padding: 0 !important;
-  font-size: 18px;
+  padding: 0 20px 0 0 !important;
+  font-size: 16px;
   line-height: 24px;
+  text-align: left;
+}
+#dokan-seller-listing-wrap ul.dokan-seller-wrap li {
+  padding-left: 4px !important;
+  padding-right: 4px !important;
 }
 #dokan-seller-listing-wrap
   .seller-listing-content
@@ -2828,7 +2843,6 @@ body .woocommerce-tabs > ul > li > a::after {
   .privacy-policy.common-page,
   .dokan-dashboard .container .content-area,
   #dokan-store-listing-filter-wrap,
-  #dokan-seller-listing-wrap,
   .post-info.wrapper-main-content,
   .all_experiences_content {
     width: 1807px;
@@ -2859,6 +2873,13 @@ body .woocommerce-tabs > ul > li > a::after {
     padding-left: 0px !important;
   }
 }
+
+@media (min-width: 1920px) {
+  #dokan-seller-listing-wrap {
+    width: 1872px;
+  }
+}
+
 @media only screen and (max-width: 1600px) {
   .mega-menu-link1 {
     left: -0.3vw;
@@ -3420,7 +3441,7 @@ body .woocommerce-tabs > ul > li > a::after {
   #tab-reviews .woocommerce-Reviews-title.has-review {
     font-size: 28px !important;
   }
-  body
+  /* body
     #dokan-seller-listing-wrap
     .dokan-single-seller
     .store-wrapper
@@ -3428,7 +3449,7 @@ body .woocommerce-tabs > ul > li > a::after {
     .store-banner {
     min-height: 380px;
     position: relative;
-  }
+  } */
   .header-inner .header-left .ovic-menu li a {
     font-size: 15px;
   }
@@ -3612,13 +3633,13 @@ body .woocommerce-tabs > ul > li > a::after {
     border: none;
   }
   .grey-bg .tab_drawer_heading.d_active {
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     padding: 18px 35px;
   }
   .grey-bg .grey-bg-right .tab_content {
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     padding: 0 15px 22px;
   }
   .grey-bg .grey-bg-right img {
@@ -3661,7 +3682,7 @@ body .woocommerce-tabs > ul > li > a::after {
     padding: 0 0 20px;
   }
   .grey-bg {
-    padding: 40px 10px 40px;
+    padding: 40px 0px 40px;
     margin-top: 50px !important;
     margin-bottom: 50px !important;
   }
@@ -3744,7 +3765,7 @@ body .woocommerce-tabs > ul > li > a::after {
     .store-wrapper
     .store-header
     .store-banner {
-    min-height: 300px;
+    min-height: 225px;
   }
   .footer .footer_left_col .vc_col-sm-6,
   .footer .footer_right_col .vc_col-sm-6,
@@ -3925,14 +3946,14 @@ body .woocommerce-tabs > ul > li > a::after {
   .tab_content span {
     font-size: 16px;
   }
-  body
+  /* body
     #dokan-seller-listing-wrap
     .dokan-single-seller
     .store-wrapper
     .store-header
     .store-banner {
     min-height: 480px;
-  }
+  } */
   body .footer .wpb-content-wrapper .vc_row {
     padding: 27px 20px 12px !important;
   }
@@ -4295,7 +4316,7 @@ body .woocommerce-tabs>ul>li:last-child .woocommerce-Tabs-panel {
     .store-wrapper
     .store-header
     .store-banner {
-    min-height: 400px;
+    min-height: 200px;
   }
   .header-inner .logo img {
     width: 150px;
@@ -4399,14 +4420,6 @@ body .woocommerce-tabs>ul>li:last-child .woocommerce-Tabs-panel {
   body .nav-top-right .slick-slider:not(.slick-vertical) .slick-arrow.next {
     top: 70px !important;
   }
-  body
-    #dokan-seller-listing-wrap
-    .dokan-single-seller
-    .store-wrapper
-    .store-header
-    .store-banner {
-    min-height: 350px;
-  }
   .tab_content .tab-sixcol .tab-txtimg,
   .tab_content .tab-sixcol .tab-txtimg img,
   .tab_content .tab-txtimg,
@@ -4422,6 +4435,9 @@ body .woocommerce-tabs>ul>li:last-child .woocommerce-Tabs-panel {
   #tab4 .col-md-3.tab-txtimgcol {
     width: 96.5%;
     flex: 0 0 96.5%;
+  }
+  #dokan-seller-listing-wrap .pagination-container.clearfix {
+    margin-inline: 20px;
   }
 }
 
@@ -4497,7 +4513,7 @@ body .woocommerce-tabs>ul>li:last-child .woocommerce-Tabs-panel {
     .store-wrapper
     .store-header
     .store-banner {
-    min-height: 300px;
+    min-height: 150px;
   }
   .tab_content .tab-sixcol .tab-txtimg,
   .tab_content .tab-sixcol .tab-txtimg img,
