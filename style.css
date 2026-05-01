@@ -5437,15 +5437,25 @@ body .pagination-wrap ul.pagination > li > a {
   padding: 10px 12px;
 }
 body .pagination-wrap ul.pagination > li > span.current {
-  padding: 10px 12px;
-  border: 1px solid #212121;
-    background-color: #293341;
-  font-family: "itc_avant_garde_gothic_proMd" !important;
+    padding: 10px 12px;
+    border: none;
+    background-color: var(--fill-brand-strong);
+    font-family: "itc_avant_garde_gothic_proMd" !important;
     color: #fff;
+    border-radius: 100% !important;
+    -webkit-border-radius: 100% !important;
+    -moz-border-radius: 100% !important;
+    -ms-border-radius: 100% !important;
+    -o-border-radius: 100% !important;
 }
 body .pagination-wrap ul.pagination > li > a:hover {
-    background-color: #293341;
+      background-color: var(--fill-brand-strong);
       color: #fff !important;
+          border-radius: 100% !important;
+    -webkit-border-radius: 100% !important;
+    -moz-border-radius: 100% !important;
+    -ms-border-radius: 100% !important;
+    -o-border-radius: 100% !important;
 }
 .find_us_main_div {
   background: #f5f5f5;
@@ -6042,12 +6052,12 @@ body .pagination .page-numbers {
     height: 42px !important;
 }
 body .pagination .page-numbers.current {
-  background: #fdf24f;
+background-color: var(--fill-brand-strong);
   color: #212121;
   font-family: "itc_avant_garde_gothic_proMd" !important;
 }
 body .pagination .page-numbers:hover {
-  background: #fdf24f;
+background-color: var(--fill-brand-strong);
   color: #212121;
 }
 body .pagination .page-numbers span {
@@ -7613,20 +7623,25 @@ body .jssocials-shares .jssocials-share-email .fa-at:before {
   font-weight: 500;
 }
 body .dokan-store-wrap .dokan-pagination li a {
-  border: 1px solid #212121 !important;
+  border: none !important;
   padding: 0 21px !important;
   height: auto !important;
-  border-radius: 60px !important;
+  border-radius: 100% !important;
   margin-bottom: 0 !important;
+  -webkit-border-radius: 100% !important;
+  -moz-border-radius: 100% !important;
+  -ms-border-radius: 100% !important;
+  -o-border-radius: 100% !important;
+  box-shadow: none;
 }
 body .dokan-store-wrap .dokan-pagination li.active a {
-  background: #fdf24f !important;
-  color: #212121 !important;
+background-color: var(--fill-brand-strong) !important;
+color: var(--text-inverse-strong) !important;
   font-family: "itc_avant_garde_gothic_proMd" !important;
 }
 body .dokan-store-wrap .dokan-pagination li a:hover {
-  background: #fdf24f;
-  color: #212121;
+background-color: var(--fill-brand-strong) !important;
+color: var(--text-inverse-strong) !important;
 }
 body .dokan-store-wrap .dokan-pagination li span {
   display: none;
@@ -8819,6 +8834,11 @@ body
       filter: invert(1);
       -webkit-filter: invert(1);
           background-repeat: no-repeat;
+}
+body #dokan-seller-listing-wrap ul.dokan-seller-wrap li a[title="Visit Store"] span:before:hover
+{
+  filter: invert(0);
+  -webkit-filter: invert(0);
 }
 body
   #dokan-seller-listing-wrap
@@ -10680,6 +10700,12 @@ body.single-product table.variations tr:not(:last-child) {
 
 body.single-product .entry-summary .quantity {
   margin-bottom: 15px;
+  display: block;
+}
+
+body.single-product .summary.entry-summary .cart button {
+    width: auto !important;
+    min-width: 160px;
 }
 
 .white-popup .dokan-form-group:nth-child(n + 3) {

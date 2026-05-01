@@ -761,22 +761,50 @@
 
 /*--- footer-start ---*/
 .best-section-hpn {
-  background-color: #ece6dc;
+  /* background: linear-gradient(
+    to bottom left,
+    #eae2d7 100%,
+    #ebe3d8 88%,
+    #eae2d7 47%
+  ); */
+  background-color: #e9e2d7;
   padding-block: 72px;
   text-align: left;
   margin-inline: auto;
   padding-inline: 40px;
+  position: relative;
+}
+.best-section-hpn img {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top: 0;
+  aspect-ratio: 217 / 374;
+  max-height: 374px;
+  display: block;
+  object-position: top right;
+  object-fit: contain;
+  height: 100%;
 }
 .best-section-hpn h2 {
   color: var(--text-strong);
   margin-bottom: 6px;
   text-align: left;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  padding: 0;
+}
+.best-section-hpn h2::after {
+  display: none;
 }
 .best-section-hpn p {
   color: var(--text-weak);
   padding-bottom: 32px;
   font-family: "itc_avant_garde_gothic_proMd" !important;
   letter-spacing: 3%;
+  z-index: 1;
+  position: relative;
 }
 /* .best-section-hpn .navbar-form {
   max-width: 560px;
@@ -789,6 +817,8 @@
   position: relative;
   display: flex;
   gap: 0 12px;
+  z-index: 1;
+  position: relative;
 }
 
 .best-section-hpn input[type="email"]::-webkit-input-placeholder {
@@ -842,7 +872,7 @@
   font-weight: 500 !important;
   letter-spacing: 2%;
   text-transform: none;
-  padding: 15px 20px !important;
+  padding: 12px 46px 12px 20px !important;
   display: inline-block;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
@@ -858,7 +888,53 @@
   -o-border-radius: 33px !important;
 }
 
-.best-section-hpn .mc4wp-form-fields input[type="email"] {
+.best-section-hpn .mc4wp-form-fields .btn-arrow {
+  position: relative;
+}
+
+.best-section-hpn .mc4wp-form-fields .btn-arrow::after {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 110px;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M0.783188 9.29569L0 8.5125L7.38038 1.125H0.670688V0H9.29569V8.625H8.17069V1.91531L0.783188 9.29569Z' fill='white' fill-opacity='0.72'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.best-section-hpn .mc4wp-form-fields .button:hover {
+  background-color: var(--text-strong) !important;
+  color: var(--text-inverse-strong) !important;
+}
+
+.best-section-hpn .mc4wp-form-fields .btn-arrow:hover::after {
+  transform: rotate(45deg);
+  top: 18px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+.best-section-hpn
+  .mc4wp-form-fields
+  .button::after
+  .best-section-hpn
+  .mc4wp-form-fields
+  input[type="email"] {
   color: var(--text-strong);
   margin: 0px !important;
   width: 100%;
@@ -1509,6 +1585,7 @@ body
   .best-section-hpn,
   .footer-hpn {
     max-width: 1872px;
+    margin-inline: auto !important;
   }
 }
 
@@ -1793,15 +1870,22 @@ body
     width: 100%;
     max-width: 100%;
   }
+  .best-section-hpn .mc4wp-form-fields .btn-arrow {
+    margin: 12px auto 0;
+  }
   .best-section-hpn .mc4wp-form-fields .button {
     position: relative;
-    width: 100% !important;
-    margin-top: 12px;
+  }
+  .best-section-hpn,
+  .best-section-hpn h2,
+  .best-section-hpn p {
+    text-align: center;
   }
   .best-section-hpn .mc4wp-form-fields {
     width: 100%;
     max-width: 100%;
     position: relative;
+    flex-wrap: wrap;
   }
   .tabing-section-hpn .container {
     padding-left: 20px;
@@ -1813,7 +1897,23 @@ body
     width: calc(100% - 37px) !important;
   }
   .best-section-hpn {
-    padding-block: 46px 48px;
+    padding-block: 48px 48px;
+    padding-inline: 20px;
+  }
+  .best-section-hpn img {
+    display: none;
+  }
+  .best-section-hpn h2 {
+    justify-content: center;
+  }
+  .best-section-hpn.mb72 {
+    margin-bottom: 0;
+  }
+  .best-section-hpn .mc4wp-form-fields .btn-arrow::after {
+    top: 20px;
+  }
+  .best-section-hpn .mc4wp-form-fields .btn-arrow:hover::after {
+    top: 16px;
   }
 }
 

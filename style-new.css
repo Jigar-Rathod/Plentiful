@@ -760,6 +760,10 @@ p {
   margin-inline: auto;
 }
 
+.form-section-hpn .screen-reader-response {
+  display: none;
+}
+
 .form-section-hpn .row {
   display: flex;
   align-items: flex-start;
@@ -794,6 +798,48 @@ p {
 
 .form-section-hpn .form-right .form-row .form-col-100 {
   margin-top: 24px;
+}
+.form-section-hpn .form-right .form-row input.wpcf7-not-valid {
+  border-color: red;
+}
+
+.form-section-hpn .form-right .form-row .form-col-100.btn-cf-arrow {
+  position: relative;
+}
+
+/* .form-section-hpn .form-right .form-row .form-col-100.btn-cf-arrow::after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  font-weight: 300;
+  background-image: url("data:image/svg+xml,%3Csvgwidth='10'height='10'viewBox='0 0 10 10'fill='none'xmlns='http://www.w3.org/2000/svg'%3E%3Cpathd='M0.783188 9.29569L0 8.5125L7.38038 1.125H0.670688V0H9.29569V8.625H8.17069V1.91531L0.783188 9.29569Z'fill='white'fill-opacity='0.72'/%3E%3C/svg%3E");
+  width: 10px;
+  height: 10px;
+  background-position: right center;
+  left: 155px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+} */
+
+.form-section-hpn .form-right .form-row .form-col-100.btn-cf-arrow::after {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 155px;
+  transform: translateY(-50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M0.783188 9.29569L0 8.5125L7.38038 1.125H0.670688V0H9.29569V8.625H8.17069V1.91531L0.783188 9.29569Z' fill='white' fill-opacity='0.72'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+  -moz-transform: translateY(-50%) rotate(45deg);
+  -ms-transform: translateY(-50%) rotate(45deg);
+  -o-transform: translateY(-50%) rotate(45deg);
 }
 
 .form-section-hpn .form-right .form-row textarea {
@@ -995,6 +1041,15 @@ textarea {
   -o-transition: all 0.5s ease-in-out;
   background-color: var(--text-strong);
   margin-top: 0;
+  position: relative;
+  padding: 12px 40px 12px 20px !important;
+}
+
+.form-section-hpn .form-right .wpcf7 input[type="submit"]::after {
+  position: absolute;
+  font-family: "FontAwesome";
+  content: "\f061"; /* Unicode for fa-arrow-right */
+  margin-left: 8px;
 }
 
 .site-main {

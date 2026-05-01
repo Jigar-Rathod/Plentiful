@@ -299,11 +299,11 @@ body .shop-before-control .woocommerce-ordering select {
   border: none !important;
   padding: 0 15px;
   height: 42px !important;
-  border-radius: 33px !important;
-  -webkit-border-radius: 33px !important;
-  -moz-border-radius: 33px !important;
-  -ms-border-radius: 33px !important;
-  -o-border-radius: 33px !important;
+  border-radius: 100% !important;
+  -webkit-border-radius: 100% !important;
+  -moz-border-radius: 100% !important;
+  -ms-border-radius: 100% !important;
+  -o-border-radius: 100% !important;
 }
 
 .woocommerce-pagination span.page-numbers.current {
@@ -346,11 +346,11 @@ body .shop-before-control .woocommerce-ordering select {
   margin: 0;
   height: 42px !important;
   line-height: 42px !important;
-  border-radius: 33px !important;
-  -webkit-border-radius: 33px !important;
-  -moz-border-radius: 33px !important;
-  -ms-border-radius: 33px !important;
-  -o-border-radius: 33px !important;
+  border-radius: 100% !important;
+  -webkit-border-radius: 100% !important;
+  -moz-border-radius: 100% !important;
+  -ms-border-radius: 100% !important;
+  -o-border-radius: 100% !important;
 }
 
 body .pagination-nav ul li .page-numbers:hover {
