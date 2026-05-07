@@ -13,6 +13,7 @@
 .category-banner-hpn .row .col-md-6 {
   display: flex;
   flex-wrap: wrap;
+  padding-right: 0;
 }
 
 .category-banner-hpn .category-banner-left {
