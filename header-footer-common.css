@@ -62,6 +62,23 @@
   color: var(--fill-inverse-strong);
   fill: var(--fill-inverse-strong);
 }
+
+.weakblack:is(:focus, :active, :focus-visible, :focus-within),
+.fitermodal
+  .modal-body
+  ul
+  li.selected
+  a:is(:hover, :focus, :active, :focus-visible, :focus-within) {
+  color: var(--fill-inverse-strong);
+}
+
+.fitermodal .modal-body ul li a {
+  color: #000;
+}
+.weakbtn:is(:focus, :active, :focus-visible, :focus-within) {
+  color: var(--text-strong);
+}
+
 .weakbtn:hover svg,
 .weakblack:hover svg,
 .action-section-hpn
@@ -1573,6 +1590,24 @@ body
 .dokan-share-btn.dokan-btn-theme,
 .dokan-follow-store-button.dokan-btn-theme {
   margin: 0 12px 0 0 !important;
+}
+
+.modal.fitermodal {
+  z-index: 99999999 !important;
+}
+
+.fitermodal .modal-body ul li.selected {
+  background-color: var(--text-strong);
+  color: var(--text-inverse-strong) !important;
+}
+
+.fitermodal .modal-body ul li.selected a {
+  color: var(--text-inverse-strong) !important;
+}
+
+.fitermodal .modal-body ul li.selected img {
+  filter: invert(1);
+  -webkit-filter: invert(1);
 }
 @media only screen and (min-width: 1920px) {
   /* .header-hpn {

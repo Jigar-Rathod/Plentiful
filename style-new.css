@@ -127,6 +127,7 @@ a:focus-visible,
 a:focus-within {
   border: none;
   outline: none;
+  color: inherit;
 }
 @font-face {
   font-family: "itc_avant_garde_gothic_proBd";
