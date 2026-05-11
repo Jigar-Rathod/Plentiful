@@ -261,33 +261,33 @@ textarea:-moz-placeholder {
 
 h1,
 .h1 {
-  font-size: clamp(28px, calc(25.6px + 0.75vw), 40px);
+  font-size: clamp(28px, calc(24.571px + 1.071vw), 40px);
   line-height: 1.3;
 }
 
 h2,
 .h2 {
-  font-size: clamp(24px, calc(22.4px + 0.5vw), 32px);
+  font-size: clamp(24px, calc(21.714px + 0.714vw), 32px);
   line-height: 1.3;
   color: var(--text-strong);
 }
 
 h3,
 .h3 {
-  font-size: clamp(14px, calc(13.6px + 0.125vw), 16px);
+  font-size: clamp(14px, calc(13.429px + 0.179vw), 16px);
   line-height: 1.5;
   color: var(--text-strong);
 }
 
 h4,
 .h4 {
-  font-size: clamp(18px, calc(17.273px + 0.227vw), 20px);
+  font-size: clamp(18px, calc(17.429px + 0.179vw), 20px);
   line-height: 1.4;
   color: var(--text-strong);
 }
 
 p {
-  font-size: clamp(14px, calc(13.6px + 0.125vw), 16px);
+  font-size: clamp(14px, calc(13.429px + 0.179vw), 16px);
   line-height: 1.5;
   color: var(--text-weak);
 }
