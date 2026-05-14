@@ -1617,6 +1617,7 @@ body
   filter: invert(1);
   -webkit-filter: invert(1);
 }
+
 @media only screen and (min-width: 1920px) {
   /* .header-hpn {
     padding-inline: 0px;
