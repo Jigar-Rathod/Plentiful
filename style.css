@@ -1137,7 +1137,7 @@ form input[type="radio"]:checked:after {
   top: -2px;
   left: -1px;
   position: relative;
-  background-color: #fdf24f;
+  background-color: rgba(239, 80, 56, 1);
   content: "";
   display: inline-block;
   visibility: visible;
@@ -3450,32 +3450,37 @@ body.dokan-dashboard .daterangepicker td.active:hover {
 body.daterangepicker td.in-range {
   background-color: #d7e9d9;
 }
-.cancelBtn {
-  border-radius: 25px !important;
-  background-color: #fdf24f !important;
-  font-size: 18px !important;
-  font-style: normal !important;
-  font-weight: 500 !important;
-  font-size: 18px !important;
-  color: #212121 !important;
-  border: 1px solid #212121 !important;
-  padding: 8px 40px !important;
-  -webkit-transition: All 0.5s ease;
-  -moz-transition: All 0.5s ease;
-  -ms-transition: All 0.5s ease;
-  -o-transition: All 0.5s ease;
-  transition: All 0.5s ease;
-  letter-spacing: 0;
-  text-transform: capitalize;
-  -webkit-border-radius: 25px !important;
-  -moz-border-radius: 25px !important;
-  -ms-border-radius: 25px !important;
-  -o-border-radius: 25px !important;
+.cancelBtn,
+.applyBtn.btn-primary  {
+    border: none !important;
+    background-color: var(--fill-brand-strong) !important;
+    color: var(--text-inverse-strong) !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    font-weight: 500 !important;
+    letter-spacing: 2% !important;
+    text-transform: none !important;
+    padding: 12px 20px !important;
+    display: inline-block !important;
+    transition: all0 .5s ease-in-out !important;
+    -webkit-transition: all0 .5s ease-in-out !important;
+    -moz-transition: all0.5s ease-in-out !important;
+    -ms-transition: all0.5s ease-in-out !important;
+    -o-transition: all0.5s ease-in-out !important;
+    -webkit-transition: all0 .5s ease-in-out !important;
+    font-family: "itc_avant_garde_gothic_proMd" !important;
+    border-radius: 33px !important;
+    -webkit-border-radius: 33px !important;
+    -moz-border-radius: 33px !important;
+    -ms-border-radius: 33px !important;
+    -o-border-radius: 33px !important;
 }
-.cancelBtn:hover {
-  background-color: #212121 !important;
-  color: #fdf24f !important;
-  background-image: none !important;
+.cancelBtn:hover,
+.applyBtn.btn-primary:hover {
+      background-color: var(--text-strong) !important;
+    text-decoration: none !important;
+    background-image: none !important;
+    color: var(--text-inverse-strong) !important;
 }
 body
   .dokan-orders-content
@@ -8945,21 +8950,26 @@ body .dokan-dss-chat-box .dokan-chat-info-box .dokan-chat-text {
   display: none;
 }
 body.dokan-dashboard #dokan-order-notes .add_note .add_note.btn {
-  line-height: 16px;
-  color: #212121 !important;
-  border-radius: 25px !important;
-  background-color: #fdf24f !important;
+  line-height: 1.5;
+  color: var(--text-inverse-strong) !important;
+  border-radius: 33px !important;
+  letter-spacing: 2%;
+  background-color: var(--fill-brand-strong) !important;
   font-family: "itc_avant_garde_gothic_proMd" !important;
-  border: 1px solid #212121 !important;
-  font-size: 16px !important;
-  padding: 10px 30px;
+  font-size: 14px !important;
+  padding: 12px 20px;
   text-transform: capitalize;
   letter-spacing: 0;
+  -webkit-border-radius: 33px !important;
+  -moz-border-radius: 33px !important;
+  -ms-border-radius: 33px !important;
+  -o-border-radius: 33px !important;
+      border: none !important;
 }
 body.dokan-dashboard #dokan-order-notes .add_note .add_note.btn:hover {
-  background-color: #212121 !important;
-  color: #fff !important;
-  border-color: inherit !important;
+    background-color: var(--text-strong) !important;
+    text-decoration: none !important;
+    color: var(--text-inverse-strong) !important;
 }
 body.dokan-dashboard .add_note .order_note_type.dokan-form-group,
 body.dokan-dashboard .add_note .order_note_type.dokan-form-group select {
@@ -11123,6 +11133,47 @@ body
   text-decoration: none !important;
   color: var(--text-inverse-strong) !important;
 }
+
+.dokan-settings-content .dokan-settings-area .dokan-store-settign-header-wrap {
+    width: 99% !important;
+    float: left;
+    /* margin-right: 20px; */
+}
+
+body .dokan-dashboard-content.dokan-booking-wrapper.dokan-product-edit .form-table tbody tr td .button-primary
+{
+    border: none !important;
+    background-color: var(--fill-brand-strong) !important;
+    color: var(--text-inverse-strong) !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    font-weight: 500 !important;
+    letter-spacing: 2% !important;
+    text-transform: none !important;
+    padding: 12px 20px !important;
+    display: inline-block !important;
+    transition: all0 .5s ease-in-out !important;
+    -webkit-transition: all0 .5s ease-in-out !important;
+    -moz-transition: all0.5s ease-in-out !important;
+    -ms-transition: all0.5s ease-in-out !important;
+    -o-transition: all0.5s ease-in-out !important;
+    -webkit-transition: all0 .5s ease-in-out !important;
+    font-family: "itc_avant_garde_gothic_proMd" !important;
+    border-radius: 33px !important;
+    -webkit-border-radius: 33px !important;
+    -moz-border-radius: 33px !important;
+    -ms-border-radius: 33px !important;
+    -o-border-radius: 33px !important;
+}
+
+body .dokan-dashboard-content.dokan-booking-wrapper.dokan-product-edit .form-table tbody tr td .button-primary:hover
+{
+      background-color: var(--text-strong) !important;
+    text-decoration: none !important;
+    background-image: none !important;
+    color: var(--text-inverse-strong) !important;
+}
+
 @media (min-width: 768px) {
   .mobile-vid {
     display: none !important;

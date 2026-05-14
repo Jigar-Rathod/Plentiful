@@ -249,7 +249,7 @@
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-.header-hpn .menu-section-header .header-menu-list > ul li:not(:last-child) {
+.header-hpn .menu-section-header .header-menu-list > ul > li:not(:last-child) {
   padding-right: 20px;
 }
 
@@ -349,7 +349,7 @@
 }
 
 .header-hpn .tabing-section-hpn .tabing-btn ul li a {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 2%;
@@ -592,10 +592,17 @@
 }
 
 .tabing-section-hpn .nav-tabs a {
-  color: rgba(213, 64, 66, 1);
+  color: var(--text-strong);
   font-weight: bold;
   padding: 10px 12px;
   text-decoration: none;
+  opacity: 0.5;
+}
+
+.tabing-section-hpn
+  .nav-tabs
+  a:is(:hover, :focus, :active, :focus-visible, :focus-within) {
+  opacity: 1;
 }
 
 .tabing-section-hpn .tab-content {
@@ -687,7 +694,7 @@
 }
 
 .tabing-section-hpn .tabing-btn {
-  max-width: 900px;
+  /* max-width: 900px; */
   margin: 32px auto 0;
   text-align: center;
 }
@@ -701,9 +708,10 @@
 
 .tabing-section-hpn .tabing-btn ul {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 0 12px;
+  gap: 8px 12px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -713,7 +721,7 @@
   border: 1px solid var(--stroke-weak);
   background-color: transparent;
   color: var(--text-strong);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 2%;
@@ -1860,7 +1868,11 @@ body
     border: none;
     justify-content: flex-start;
   }
-  .header-hpn .menu-section-header .header-menu-list > ul li:not(:last-child) {
+  .header-hpn
+    .menu-section-header
+    .header-menu-list
+    > ul
+    > li:not(:last-child) {
     padding-right: 0;
   }
   .header-hpn .tabing-section-hpn .tabing-btn ul li {
