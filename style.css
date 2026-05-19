@@ -7939,7 +7939,7 @@ body.single-product .free_call_div {
   float: right;
   margin-top: -10px;
 }
-body.single-product .free_call_div .button {
+/* body.single-product .free_call_div .button {
   background-color: #fff !important;
   color: #212121 !important;
   padding: 8px 26px !important;
@@ -7947,7 +7947,7 @@ body.single-product .free_call_div .button {
 }
 body.single-product .free_call_div .button:hover {
   background-color: #ebebeb !important;
-}
+} */
 body.single-product .retreat_date_show_div .single_date {
   color: #212121;
   font-size: 15px;

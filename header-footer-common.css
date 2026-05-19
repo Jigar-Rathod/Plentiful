@@ -1427,7 +1427,6 @@
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
 }
-body .woocommerce-tabs .custom-reviews-section .woocommerce-Reviews .button,
 body.single-product .summary.entry-summary .cart button,
 .video_bg_quote_text_row .video_content_col .common_button_class a,
 .about_banner_row .banner-text .common_button_class a,
@@ -1616,6 +1615,47 @@ body
 .fitermodal .modal-body ul li.selected img {
   filter: invert(1);
   -webkit-filter: invert(1);
+}
+
+body .woocommerce-tabs .custom-reviews-section .woocommerce-Reviews .button {
+  border: 1px solid var(--stroke-weak) !important;
+  background-color: transparent !important;
+  color: var(--text-strong) !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  font-weight: 500 !important;
+  letter-spacing: 2% !important;
+  text-transform: none !important;
+  padding: 12px 20px !important;
+  display: inline-block;
+  transition: all 0.5s ease-in-out !important;
+  -webkit-transition: all 0.5s ease-in-out !important;
+  -moz-transition: all 0.5s ease-in-out !important;
+  -ms-transition: all 0.5s ease-in-out !important;
+  -o-transition: all 0.5s ease-in-out !important;
+  /* display: flex !important; */
+  /* align-items: center; */
+  border-radius: 33px !important;
+  -webkit-border-radius: 33px !important;
+  -moz-border-radius: 33px !important;
+  -ms-border-radius: 33px !important;
+  -o-border-radius: 33px !important;
+}
+
+body
+  .woocommerce-tabs
+  .custom-reviews-section
+  .woocommerce-Reviews
+  .button:hover {
+  border: 1px solid var(--text-strong) !important;
+  background-color: var(--text-strong) !important;
+  text-decoration: none !important;
+  color: var(--text-inverse-strong) !important;
+  transition: all 0.5s ease-in-out !important;
+  -webkit-transition: all 0.5s ease-in-out !important;
+  -moz-transition: all 0.5s ease-in-out !important;
+  -ms-transition: all 0.5s ease-in-out !important;
+  -o-transition: all 0.5s ease-in-out !important;
 }
 
 @media only screen and (min-width: 1920px) {
