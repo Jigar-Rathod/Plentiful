@@ -804,8 +804,8 @@
   width: 100%;
   right: 0;
   top: 0;
-  aspect-ratio: 217 / 374;
-  max-height: 374px;
+  aspect-ratio: 489 / 326;
+  max-height: 326px;
   display: block;
   object-position: top right;
   object-fit: contain;
@@ -1397,35 +1397,41 @@
 .ui-slider {
   margin: 0 !important;
 }
-.woocommerce-tabs > ul > li button {
-  /* border: 1px solid var(--stroke-weak); */
-  background-color: transparent;
-  color: var(--text-strong);
-  font-size: 12px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 16%;
-  text-transform: uppercase;
-  padding: 12px 20px;
-  display: inline-block;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  display: flex;
-  align-items: center;
+.woocommerce-tabs > ul > li button,
+.right_contact_info .dokan-store-support-btn-wrap.dokan-right button,
+body.single-product .free_call_div .free_call_btn {
+  border: 1px solid var(--fill-brand-strong) !important;
+  background-color: transparent !important;
+  color: var(--fill-brand-strong) !important;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+  font-weight: 500 !important;
+  letter-spacing: 16% !important;
+  text-transform: uppercase !important;
+  padding: 12px 20px !important;
+  display: inline-block !important;
+  transition: all0.5sease-in-out !important;
+  -webkit-transition: all 0.5s ease-in-out !important;
+  -moz-transition: all0.5sease-in-out !important;
+  -ms-transition: all0.5sease-in-out !important;
+  -o-transition: all0.5sease-in-out !important;
+  display: flex !important;
+  align-items: center !important;
+  -webkit-transition: all0.5sease-in-out !important;
 }
-.woocommerce-tabs > ul > li button:hover {
-  /* border: 1px solid var(--text-strong); */
-  background-color: var(--text-strong);
-  text-decoration: none;
-  color: var(--text-inverse-strong);
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
+.woocommerce-tabs > ul > li button:hover,
+.right_contact_info .dokan-store-support-btn-wrap.dokan-right button:hover,
+body.single-product .free_call_div .free_call_btn:hover {
+  border: 1px solid var(--text-strong) !important;
+  background-color: var(--text-strong) !important;
+  text-decoration: none !important;
+  color: var(--text-inverse-strong) !important;
+  transition: all 0.5s ease-in-out !important;
+  transition: all0.5sease-in-out !important;
+  -webkit-transition: all0.5sease-in-out !important;
+  -moz-transition: all0.5sease-in-out !important;
+  -ms-transition: all0.5sease-in-out !important;
+  -o-transition: all0.5sease-in-out !important;
 }
 body.single-product .summary.entry-summary .cart button,
 .video_bg_quote_text_row .video_content_col .common_button_class a,
@@ -1646,6 +1652,16 @@ body
   .woocommerce-tabs
   .custom-reviews-section
   .woocommerce-Reviews
+  .button:hover
+  img {
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
+
+body
+  .woocommerce-tabs
+  .custom-reviews-section
+  .woocommerce-Reviews
   .button:hover {
   border: 1px solid var(--text-strong) !important;
   background-color: var(--text-strong) !important;
@@ -1656,6 +1672,68 @@ body
   -moz-transition: all 0.5s ease-in-out !important;
   -ms-transition: all 0.5s ease-in-out !important;
   -o-transition: all 0.5s ease-in-out !important;
+}
+
+.category-banner-hpn {
+  background-color: rgba(248, 246, 242, 1);
+  overflow: hidden;
+  max-width: 1872px;
+  margin-inline: auto;
+}
+
+.category-banner-hpn .row {
+  display: flex;
+  align-items: center;
+}
+
+.category-banner-hpn .row .col-md-6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-banner-hpn .category-banner-left {
+  flex: 0 0 50%;
+  max-width: 50%;
+  float: none;
+  position: relative;
+  padding: 100px 96px 100px 24px;
+}
+
+.category-banner-hpn .category-banner-left h1 {
+  color: var(--text-strong);
+  padding-bottom: 12px;
+}
+
+.category-banner-hpn .category-banner-left p {
+  padding-bottom: 32px;
+}
+
+.category-banner-hpn .category-banner-left .weakblack svg {
+  transform: rotate(133deg);
+  -webkit-transform: rotate(133deg);
+  -moz-transform: rotate(133deg);
+  -ms-transform: rotate(133deg);
+  -o-transform: rotate(133deg);
+}
+
+.category-banner-hpn .category-banner-right {
+  max-width: 50%;
+  flex: 0 0 50%;
+  float: none;
+  position: relative;
+  min-height: 640px;
+  padding-right: 0;
+}
+
+.category-banner-hpn .category-banner-right img {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  /*height: 100%;*/
+  aspect-ratio: 720 / 640;
+  min-height: 640px;
 }
 
 @media only screen and (min-width: 1920px) {
@@ -1670,6 +1748,9 @@ body
   .footer-hpn {
     max-width: 1872px;
     margin-inline: auto !important;
+  }
+  .yoga-section-hpn.mx24 {
+    margin-inline: auto;
   }
 }
 
@@ -1724,6 +1805,9 @@ body
     padding-top: 20px;
     margin-left: inherit;
     text-align: left;
+  }
+  .category-banner-hpn .category-banner-left {
+    padding: 100px 50px 100px 24px;
   }
 }
 
@@ -2094,6 +2178,29 @@ body
   }
   .footer-hpn .two-logo-section img {
     margin-left: inherit;
+  }
+  .category-banner-hpn .row {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .category-banner-hpn .category-banner-left {
+    padding: 72px 20px;
+  }
+  .category-banner-hpn .category-banner-left,
+  .category-banner-hpn .category-banner-right {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .category-banner-hpn .category-banner-right img {
+    position: relative;
+    min-height: auto;
+  }
+  .category-banner-hpn .category-banner-right {
+    padding-left: 0;
+    padding-right: 0;
+    min-height: auto;
   }
 }
 
