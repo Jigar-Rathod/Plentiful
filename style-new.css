@@ -917,7 +917,7 @@ textarea {
 }
 
 .action-section-hpn {
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
   overflow: hidden;
 }
 
@@ -1375,7 +1375,7 @@ textarea {
   }
   .action-section-hpn .moblie-view {
     display: block;
-    margin-block: 32px 72px;
+    margin-block: 32px 0;
   }
   .four-boxes-hpn.mb72 {
     margin-bottom: 0;

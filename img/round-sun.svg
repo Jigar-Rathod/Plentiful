@@ -1,0 +1,19 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#947147" stroke-opacity="0.38"/>
+<g clip-path="url(#clip0_2020_467)">
+<path d="M31.9948 25.04H8.0052" stroke="#947147" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M20 15.8569V10.2344" stroke="#947147" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M23.5143 16.5562L24.8592 13.3096" stroke="#947147" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M16.4856 16.5562L15.1408 13.3096" stroke="#947147" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M11.5155 21.5265L8.26895 20.1816" stroke="#947147" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M28.4845 21.5265L31.7311 20.1816" stroke="#947147" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M13.5063 18.547L9.53055 14.5713" stroke="#947147" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M26.4937 18.547L30.4694 14.5713" stroke="#947147" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M27.075 25.0409C27.075 21.1334 23.9074 17.9658 20 17.9658C16.0925 17.9658 12.9249 21.1334 12.9249 25.0409" stroke="#947147" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_2020_467">
+<rect width="24" height="24" fill="white" transform="matrix(-1 0 0 1 32 8)"/>
+</clipPath>
+</defs>
+</svg>

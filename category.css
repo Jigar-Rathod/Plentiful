@@ -86,12 +86,13 @@
   padding-bottom: 6px;
   color: var(--text-inverse-strong);
 }
+
 .getting-section-hpn .getting-right p {
   color: var(--text-inverse-weak);
   padding-bottom: 32px;
 }
 
-.getting-section-hpn .getting-right .nav-tabs > li.active > a,
+/*.getting-section-hpn .getting-right .nav-tabs > li.active > a,
 .getting-section-hpn .getting-right .nav-tabs > li.active > a:focus,
 .getting-section-hpn .getting-right .nav-tabs > li.active > a:hover {
   background-color: transparent;
@@ -128,10 +129,10 @@
 
 .getting-section-hpn .nav-tabs > li {
   padding: 9px 12px 0 0px;
-}
+}*/
 
 .getting-section-hpn .tab-content {
-  margin-top: 32px;
+  margin-top: 20px;
 }
 
 .getting-section-hpn .steps-section .step {
@@ -192,8 +193,92 @@
   color: var(--fill-inverse-weak);
 }
 
-.getting-section-hpn .steps-section .step:last-child {
+/*.getting-section-hpn .steps-section .step:last-child {
   margin-bottom: 0;
+}*/
+
+.getting-section-hpn .getting-right .getting-section-tabs input {
+  appearance: none;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.getting-section-hpn
+  .getting-right
+  .getting-section-tabs
+  input:checked::before {
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 12H15M3 12C3 13.1819 3.23279 14.3522 3.68508 15.4442C4.13738 16.5361 4.80031 17.5282 5.63604 18.364C6.47177 19.1997 7.46392 19.8626 8.55585 20.3149C9.64778 20.7672 10.8181 21 12 21C13.1819 21 14.3522 20.7672 15.4442 20.3149C16.5361 19.8626 17.5282 19.1997 18.364 18.364C19.1997 17.5282 19.8626 16.5361 20.3149 15.4442C20.7672 14.3522 21 13.1819 21 12C21 10.8181 20.7672 9.64778 20.3149 8.55585C19.8626 7.46392 19.1997 6.47177 18.364 5.63604C17.5282 4.80031 16.5361 4.13738 15.4442 3.68508C14.3522 3.23279 13.1819 3 12 3C10.8181 3 9.64778 3.23279 8.55585 3.68508C7.46392 4.13738 6.47177 4.80031 5.63604 5.63604C4.80031 6.47177 4.13738 7.46392 3.68508 8.55585C3.23279 9.64778 3 10.8181 3 12Z' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 0px;
+  top: 3px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.getting-section-hpn .getting-right .getting-section-tabs input::before {
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 12H15M12 9V15M3 12C3 13.1819 3.23279 14.3522 3.68508 15.4442C4.13738 16.5361 4.80031 17.5282 5.63604 18.364C6.47177 19.1997 7.46392 19.8626 8.55585 20.3149C9.64778 20.7672 10.8181 21 12 21C13.1819 21 14.3522 20.7672 15.4442 20.3149C16.5361 19.8626 17.5282 19.1997 18.364 18.364C19.1997 17.5282 19.8626 16.5361 20.3149 15.4442C20.7672 14.3522 21 13.1819 21 12C21 9.61305 20.0518 7.32387 18.364 5.63604C16.6761 3.94821 14.3869 3 12 3C9.61305 3 7.32387 3.94821 5.63604 5.63604C3.94821 7.32387 3 9.61305 3 12Z' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 0px;
+  top: 3px;
+  display: flex;
+  align-items: anchor-center;
+  justify-content: center;
+}
+
+.getting-section-hpn .getting-right .getting-section-tabs .tab-label {
+  color: var(--text-inverse-strong);
+  padding: 0 0 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  line-height: 1.42857143;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  opacity: 0.5;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 24%;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 30px;
+}
+
+.getting-section-hpn
+  .getting-right
+  .getting-section-tabs
+  input:checked
+  + .tab-label {
+  color: #fff;
+  opacity: 1;
+}
+
+.getting-section-hpn .getting-right .getting-section-tabs .tab-content {
+  display: none;
+}
+
+.getting-section-hpn
+  .getting-right
+  .getting-section-tabs
+  input:checked
+  + .tab-label
+  + .tab-content {
+  display: block;
 }
 
 .faq-section {
@@ -266,6 +351,9 @@
 }
 
 @media only screen and (min-width: 1920px) {
+  .yoga-section-hpn.mx24 {
+    margin-inline: auto;
+  }
   .woocommerce-category-wrapper .site-content.mx24 {
     margin-inline: auto;
     max-width: 1872px;
@@ -342,7 +430,7 @@
     padding: 72px 20px;
   }
   .faq-section .faq-row {
-    margin-inline: 20px;
+    margin-inline: 0;
   }
 }
 

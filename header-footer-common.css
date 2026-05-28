@@ -792,23 +792,31 @@
     #ebe3d8 88%,
     #eae2d7 47%
   ); */
-  background-color: #e9e2d7;
-  padding-block: 72px;
+  /* background-color: #e9e2d7; */
+  padding-block: clamp(48px, calc(23.704px + 6.479vw), 117px);
   text-align: left;
   margin-inline: auto;
   padding-inline: 40px;
   position: relative;
 }
+
+.best-section-hpn .row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
 .best-section-hpn img {
   position: absolute;
   width: 100%;
   right: 0;
   top: 0;
-  aspect-ratio: 489 / 326;
-  max-height: 326px;
+  aspect-ratio: 1392 / 560;
+  max-height: 560px;
   display: block;
   object-position: top right;
-  object-fit: contain;
+  object-fit: cover;
   height: 100%;
 }
 .best-section-hpn h2 {
@@ -825,7 +833,7 @@
 }
 .best-section-hpn p {
   color: var(--text-weak);
-  padding-bottom: 32px;
+  padding-bottom: 45px;
   font-family: "itc_avant_garde_gothic_proMd" !important;
   letter-spacing: 3%;
   z-index: 1;
@@ -844,6 +852,7 @@
   gap: 0 12px;
   z-index: 1;
   position: relative;
+  margin-bottom: 40px;
 }
 
 .best-section-hpn input[type="email"]::-webkit-input-placeholder {
@@ -885,6 +894,7 @@
 
 .best-section-hpn form#mc4wp-form-1 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
 }
@@ -954,12 +964,10 @@
   -o-transform: rotate(45deg);
 }
 
-.best-section-hpn
+/* .best-section-hpn
   .mc4wp-form-fields
-  .button::after
-  .best-section-hpn
-  .mc4wp-form-fields
-  input[type="email"] {
+  .button::after */
+.best-section-hpn .mc4wp-form-fields input[type="email"] {
   color: var(--text-strong);
   margin: 0px !important;
   width: 100%;
@@ -971,6 +979,40 @@
   -moz-border-radius: 33px !important;
   -ms-border-radius: 33px !important;
   -o-border-radius: 33px !important;
+}
+
+.best-section-hpn .best-section-txt {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 12px;
+  max-width: 330px;
+}
+
+.best-section-hpn .best-section-txt img {
+  position: relative;
+  aspect-ratio: 40/40;
+  max-height: 40px;
+  object-fit: none;
+  height: auto;
+  width: auto;
+}
+
+.best-section-hpn .best-section-txt p {
+  padding-bottom: 0;
+}
+
+.best-section-hpn .mc4wp-response {
+  margin-bottom: 20px;
+}
+.best-section-hpn .mc4wp-response p {
+  padding-bottom: 0;
+  color: #000;
+}
+.best-section-hpn .mc4wp-success {
+  background-color: transparent;
+  padding: 0;
+  margin-top: -10px;
 }
 
 .footer-hpn {
@@ -1702,10 +1744,21 @@ body
 .category-banner-hpn .category-banner-left h1 {
   color: var(--text-strong);
   padding-bottom: 12px;
+  font-size: clamp(28px, 24.571px + 1.071vw, 40px);
+  line-height: 1.3;
+  font-family: itc_avant_garde_gothic_proMd !important;
+  font-weight: 500 !important;
+  margin: 0;
 }
 
 .category-banner-hpn .category-banner-left p {
   padding-bottom: 32px;
+  font-size: clamp(14px, calc(13.429px + 0.179vw), 16px);
+  line-height: 1.5;
+  color: var(--text-weak);
+  margin: 0;
+  font-family: "itc_avant_garde_gothic_proMd" !important;
+  font-weight: 500 !important;
 }
 
 .category-banner-hpn .category-banner-left .weakblack svg {
@@ -2048,16 +2101,12 @@ body
   .best-section-hpn .mc4wp-form-fields .button {
     position: relative;
   }
-  .best-section-hpn,
-  .best-section-hpn h2,
-  .best-section-hpn p {
-    text-align: center;
-  }
   .best-section-hpn .mc4wp-form-fields {
     width: 100%;
     max-width: 100%;
     position: relative;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .tabing-section-hpn .container {
     padding-left: 20px;
@@ -2069,15 +2118,19 @@ body
     width: calc(100% - 37px) !important;
   }
   .best-section-hpn {
+    background-color: #e9e2d7;
     padding-block: 48px 48px;
     padding-inline: 20px;
   }
-  .best-section-hpn img {
-    display: none;
+  .best-section-hpn .best-section-txt img {
+    display: block;
   }
+  /* .best-section-hpn img {
+    display: none;
+  } 
   .best-section-hpn h2 {
     justify-content: center;
-  }
+  } */
   .best-section-hpn.mb72 {
     margin-bottom: 0;
   }
@@ -2086,6 +2139,12 @@ body
   }
   .best-section-hpn .mc4wp-form-fields .btn-arrow:hover::after {
     top: 16px;
+  }
+  .best-section-hpn .best-section-txt {
+    max-width: 100%;
+  }
+  .best-section-hpn .best-section-txt p {
+    text-align: left;
   }
 }
 
@@ -2201,6 +2260,18 @@ body
     padding-left: 0;
     padding-right: 0;
     min-height: auto;
+  }
+  .best-section-hpn {
+    background-color: #d8c7b1;
+  }
+  .best-section-hpn img {
+    display: none;
+  }
+  .best-section-hpn,
+  .best-section-hpn h2,
+  .best-section-hpn p {
+    text-align: center;
+    justify-content: center;
   }
 }
 
